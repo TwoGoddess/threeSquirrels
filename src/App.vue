@@ -33,4 +33,10 @@ export default {
 
 <style>
     @import './assets/css/reset.css';
+    @font-face {
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Material Icons'), local('MaterialIcons-Regular'), url(http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/MaterialIcons-Regular.woff2) format('woff2');
+    }
 </style>
