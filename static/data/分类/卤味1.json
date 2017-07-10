@@ -1,0 +1,280 @@
+﻿{
+    "data": {
+        "total": 9,
+        "page": "1",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104859,
+                "id": 100106853,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "鲜辣金针菇160g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2cd23b349c3ce1e4ba58444cdaadca6e_380x380.jpg",
+                "pictures": [
+                    100234594,
+                    100234595,
+                    100234596,
+                    100234597
+                ],
+                "productType": 0,
+                "reviewCount": 0,
+                "salesCount": 1000,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "10.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100713,
+                "id": 100100726,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "无辣不欢 约辣200g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/1fab81ff97ca3d94098d345949389785_380x380.jpg",
+                "pictures": [
+                    100143189,
+                    100143190,
+                    100143191
+                ],
+                "productType": 0,
+                "reviewCount": 6959,
+                "salesCount": 1219,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "9.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100651,
+                "id": 100100646,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "35.0000"
+                },
+                "name": "小贱香辣鸡蛋干 240g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/407dea442a3942013646d6caa635bc6a_380x380.jpg",
+                "pictures": [
+                    100127322,
+                    100127323,
+                    100127324,
+                    100127325
+                ],
+                "productType": 0,
+                "reviewCount": 342,
+                "salesCount": 2701,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "15.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100422,
+                "id": 100100422,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "29.0000"
+                },
+                "name": "Q弹鸡蛋干五香味 240g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e038a7552067e632ef6e520611e54d00_380x380.jpg",
+                "pictures": [
+                    100106984,
+                    100106986,
+                    100106987,
+                    100106989
+                ],
+                "productType": 0,
+                "reviewCount": 1166,
+                "salesCount": 5109,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "13.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100356,
+                "id": 100100356,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "20.0000"
+                },
+                "name": "卤香铁蛋蛋 136g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/6eb7acffc896daf699a35b058c49f1e2_380x380.jpg",
+                "pictures": [
+                    100106288,
+                    100106289,
+                    100106290,
+                    100106291,
+                    100229976
+                ],
+                "productType": 0,
+                "reviewCount": 1569,
+                "salesCount": 7798,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "13.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100301,
+                "id": 100100301,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "35.0000"
+                },
+                "name": "Q弹鸡蛋干山椒味 240g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2593f5d8873a536da0d4e5080f09c251_380x380.jpg",
+                "pictures": [
+                    100106784,
+                    100106786,
+                    100106787,
+                    100106788
+                ],
+                "productType": 0,
+                "reviewCount": 326,
+                "salesCount": 3462,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "13.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100291,
+                "id": 100100291,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "30.0000"
+                },
+                "name": "香辣素肉干 250g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/1597e835e6e19f5e3e91e8e6989e0f25_380x380.jpg",
+                "pictures": [
+                    100107357,
+                    100107358,
+                    100107359,
+                    100107360,
+                    100229864
+                ],
+                "productType": 0,
+                "reviewCount": 1810,
+                "salesCount": 3490,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "16.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100290,
+                "id": 100100290,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.9000"
+                },
+                "name": "豆干香辣牛肉味 250g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0af40c78e657b14aeaa82a93398af02b_380x380.jpg",
+                "pictures": [
+                    100106883,
+                    100106884,
+                    100106885,
+                    100106886
+                ],
+                "productType": 0,
+                "reviewCount": 935,
+                "salesCount": 3540,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "14.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100277,
+                "id": 100100277,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "27.5000"
+                },
+                "name": "香辣卤藕 208g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/8abe7c6ab9778fe9d69f7513ba73cded_380x380.jpg",
+                "pictures": [
+                    100107361,
+                    100107362,
+                    100107363,
+                    100229979
+                ],
+                "productType": 0,
+                "reviewCount": 1656,
+                "salesCount": 3708,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "13.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

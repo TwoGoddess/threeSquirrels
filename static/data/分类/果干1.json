@@ -1,0 +1,366 @@
+﻿{
+    "data": {
+        "total": 29,
+        "page": "1",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104861,
+                "id": 100106855,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "13.0000"
+                },
+                "name": "软绵绵（红薯干）80g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a38003f5caf8dcd45921fbd295635e40_380x380.jpg",
+                "pictures": [
+                    100234620,
+                    100234621,
+                    100234622,
+                    100234623
+                ],
+                "productType": 0,
+                "reviewCount": 0,
+                "salesCount": 100,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "5.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104805,
+                "id": 100104818,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "95.5000"
+                },
+                "name": "果干新势力 482g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/09ae0e51c9cd012d8d371e1d76186b53_380x380.jpg",
+                "pictures": [
+                    100220987,
+                    100220988,
+                    100220989,
+                    100220990
+                ],
+                "productType": 0,
+                "reviewCount": 116,
+                "salesCount": 143,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "39.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100102797,
+                "id": 100102810,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "73.0000"
+                },
+                "name": "缤纷果味多 328g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/68f3351b50aa30fe4e012fecee024d3b_380x380.jpg",
+                "pictures": [
+                    100220982,
+                    100220983,
+                    100220984,
+                    100220985
+                ],
+                "productType": 0,
+                "reviewCount": 285,
+                "salesCount": 1699,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "36.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100646,
+                "id": 100100641,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "45.0000"
+                },
+                "name": "若羌灰枣二等 415g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/98290766ee8db49414275ff9a901dd5e_380x380.jpg",
+                "pictures": [
+                    100150202,
+                    100150203,
+                    100150204,
+                    100150205
+                ],
+                "productType": 0,
+                "reviewCount": 774,
+                "salesCount": 12673,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "18.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100634,
+                "id": 100100629,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "60.0000"
+                },
+                "name": "红香妃葡萄干 280g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0346e1ef84918ce7e0eadaba0b0cac33_380x380.jpg",
+                "pictures": [
+                    100150198,
+                    100150199,
+                    100150200
+                ],
+                "productType": 0,
+                "reviewCount": 263,
+                "salesCount": 8721,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "26.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100605,
+                "id": 100100600,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "62.0000"
+                },
+                "name": "绿香妃葡萄干 280g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bbe638424f21d89807a6cddc34a476cd_380x380.jpg",
+                "pictures": [
+                    100150132,
+                    100150133,
+                    100232354
+                ],
+                "productType": 0,
+                "reviewCount": 294,
+                "salesCount": 8834,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "33.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100557,
+                "id": 100100552,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "20.0000"
+                },
+                "name": "山楂片 258g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/c1aa0c144b259e8e317c259fabe97c02_380x380.jpg",
+                "pictures": [
+                    100110584,
+                    100110585,
+                    100110586,
+                    100110587
+                ],
+                "productType": 0,
+                "reviewCount": 1279,
+                "salesCount": 8817,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "11.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100555,
+                "id": 100100550,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "22.0000"
+                },
+                "name": "红杏干 106g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9d7aa6c51fb1476372bf2f4aadafc497_380x380.jpg",
+                "pictures": [
+                    100150052,
+                    100150053,
+                    100150054,
+                    100150055
+                ],
+                "productType": 0,
+                "reviewCount": 1385,
+                "salesCount": 10845,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "10.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100533,
+                "id": 100100528,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "32.0000"
+                },
+                "name": "无核白葡萄干 280g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3e8dd756ddcbe5f615d88e64b884ca27_380x380.jpg",
+                "pictures": [
+                    100150124,
+                    100150125,
+                    100150126,
+                    100150127
+                ],
+                "productType": 0,
+                "reviewCount": 1355,
+                "salesCount": 9214,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "18.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100498,
+                "id": 100100493,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "65.0000"
+                },
+                "name": "和田骏枣一等 415g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9d85eefb5e7ad0da839277ddc045a8b3_380x380.jpg",
+                "pictures": [
+                    100150140,
+                    100150141,
+                    100150142
+                ],
+                "productType": 0,
+                "reviewCount": 240,
+                "salesCount": 9121,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "34.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100487,
+                "id": 100100482,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "45.0000"
+                },
+                "name": "红地球提子干 260g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bf3e0c920aa45baf586b595c62837e99_380x380.jpg",
+                "pictures": [
+                    100110482,
+                    100110483,
+                    100110484,
+                    100110485
+                ],
+                "productType": 0,
+                "reviewCount": 322,
+                "salesCount": 9862,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "22.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100486,
+                "id": 100100481,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "48.0000"
+                },
+                "name": "智利红提提子干 260g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d58fde8a66a3388c271a166d8f2f11d0_380x380.jpg",
+                "pictures": [
+                    100109247,
+                    100109248,
+                    100109249,
+                    100109250
+                ],
+                "productType": 0,
+                "reviewCount": 82,
+                "salesCount": 11035,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "22.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

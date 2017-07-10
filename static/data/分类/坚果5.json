@@ -1,0 +1,159 @@
+﻿{
+    "data": {
+        "total": 53,
+        "page": "5",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100288,
+                "id": 100100288,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "34.0000"
+                },
+                "name": "【爆卖】炭烧腰果185g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/84b0e01f3e09f74693527ce987744068_380x380.jpg",
+                "pictures": [
+                    100106676,
+                    100106677,
+                    100106678,
+                    100141442
+                ],
+                "productType": 0,
+                "reviewCount": 11805,
+                "salesCount": 21900,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "19.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100284,
+                "id": 100100284,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "32.0000"
+                },
+                "name": "夏威夷果 185g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/ab7a28c36323778abbef77268f5a3017_380x380.jpg",
+                "pictures": [
+                    100106707,
+                    100106708,
+                    100106709,
+                    100232356
+                ],
+                "productType": 0,
+                "reviewCount": 8219,
+                "salesCount": 16300,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "18.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100282,
+                "id": 100100282,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "49.0000"
+                },
+                "name": "野生山核桃仁 155g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9c7524b93307e9e29b2bcdc1c915233d_380x380.jpg",
+                "pictures": [
+                    100106587,
+                    100106589,
+                    100106590,
+                    100234210
+                ],
+                "productType": 0,
+                "reviewCount": 433,
+                "salesCount": 13126,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "23.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100248,
+                "id": 100100248,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "15.0000"
+                },
+                "name": "兰花豆牛肉味 120g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/8d7a6df22a78564c26c17064bdabae93_380x380.jpg",
+                "pictures": [
+                    100152731,
+                    100152732,
+                    100152733,
+                    100152734
+                ],
+                "productType": 0,
+                "reviewCount": 2956,
+                "salesCount": 12019,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "8.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100240,
+                "id": 100100240,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "118.0000"
+                },
+                "name": "香榧 155g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3481b512b2f23ac2b56f414384daada4_380x380.jpg",
+                "pictures": [
+                    100106517,
+                    100106518,
+                    100106519,
+                    100106520
+                ],
+                "productType": 0,
+                "reviewCount": 151,
+                "salesCount": 11259,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "49.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

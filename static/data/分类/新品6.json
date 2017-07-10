@@ -1,0 +1,99 @@
+﻿{
+    "data": {
+        "total": 63,
+        "page": "6",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100739,
+                "id": 100100752,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "80.0000"
+                },
+                "name": "能量果仁 182g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/39b0c17038f0dce61fc80ccdfc9677f2_380x380.jpg",
+                "pictures": [
+                    100152617,
+                    100152618,
+                    100152619,
+                    100152620
+                ],
+                "productType": 0,
+                "reviewCount": 884,
+                "salesCount": 470,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "29.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100737,
+                "id": 100100750,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "冻干无花果 30g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/175c58c1a1aee22f5bc2100f9d24b740_380x380.jpg",
+                "pictures": [
+                    100151491,
+                    100151492,
+                    100151493,
+                    100151494
+                ],
+                "productType": 0,
+                "reviewCount": 641,
+                "salesCount": 231,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "12.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100376,
+                "id": 100100376,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "21.5000"
+                },
+                "name": "一款极致SB烧饼 186g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/71091d68e09506744e26ad4b715fef8c_380x380.jpg",
+                "pictures": [
+                    100113158,
+                    100113159,
+                    100113160,
+                    100113161
+                ],
+                "productType": 0,
+                "reviewCount": 4027,
+                "salesCount": 13842,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "16.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}
