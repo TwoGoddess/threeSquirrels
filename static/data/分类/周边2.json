@@ -1,0 +1,36 @@
+﻿{
+    "data": {
+        "total": 13,
+        "page": "2",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100624,
+                "id": 100100619,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "12.0000"
+                },
+                "name": "坚果开口器",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b837d727b2530b85e4efc243a4378ed3_380x380.jpg",
+                "pictures": [
+                    100117615
+                ],
+                "productType": 0,
+                "reviewCount": 645,
+                "salesCount": 2755,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "5.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

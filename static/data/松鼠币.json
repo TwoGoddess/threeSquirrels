@@ -1,0 +1,236 @@
+﻿{
+    "data": {
+        "floors": [
+            {
+                "floorHead": {
+                    "name": "兑换中心1",
+                    "param": {
+                        "brand": "",
+                        "category": "",
+                        "id": 0,
+                        "keyword": "",
+                        "title": "",
+                        "url": "/"
+                    },
+                    "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/32497450aaae47680732671bae40127c.jpg",
+                    "type": 0
+                },
+                "products": [
+                    {
+                        "id": 100108774,
+                        "integralAmout": "3000",
+                        "limit": 1,
+                        "limitType": 0,
+                        "name": "全场通用-3元无门槛优惠券",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/couponDef/74093d1a973d667e975e0b3690f90443.jpg",
+                        "price": "0",
+                        "tags": [],
+                        "type": 1
+                    },
+                    {
+                        "id": 100108776,
+                        "integralAmout": "5000",
+                        "limit": 1,
+                        "limitType": 0,
+                        "name": "【不与满减活动叠加】-满168减10元",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/couponDef/74093d1a973d667e975e0b3690f90443.jpg",
+                        "price": "0",
+                        "tags": [],
+                        "type": 1
+                    },
+                    {
+                        "id": 100100768,
+                        "integralAmout": "4900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "小贱酵母面包（北海道牛奶风味）218g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/04656cbb194a98b3e1b76692eb27056e_380x380.jpg",
+                        "price": "8.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100787,
+                        "integralAmout": "4900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "约辣 200g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/753ef789e65ef635a9c3df3f24fe16da_380x380.jpg",
+                        "price": "5.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100769,
+                        "integralAmout": "6900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "垦丁的晚霞果冻 360g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0b9c76d20404cdc1a35a3f44cf061966_380x380.jpg",
+                        "price": "10.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100846,
+                        "integralAmout": "8900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "香辣小鸡腿 160g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/cfb75e868dedfd6253a45b075250a086_380x380.jpg",
+                        "price": "10.0000",
+                        "tags": [],
+                        "type": 0
+                    }
+                ]
+            },
+            {
+                "floorHead": {
+                    "name": "兑换中心2",
+                    "param": {
+                        "brand": "",
+                        "category": "",
+                        "id": 0,
+                        "keyword": "",
+                        "title": "",
+                        "url": "/"
+                    },
+                    "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/59946be4ef6fec8bfd0e072e2c5f364b.jpg",
+                    "type": 0
+                },
+                "products": [
+                    {
+                        "id": 100104828,
+                        "integralAmout": "2000",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "香辣玉米片 140g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a5b482490798acc53d04f0fd6c1e5ebb_380x380.jpg",
+                        "price": "5.9000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100847,
+                        "integralAmout": "5000",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "爽口脆笋香辣味 192g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/63bd508bf9143a0bde97dfd3c819d8cd_380x380.jpg",
+                        "price": "6.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100793,
+                        "integralAmout": "6900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "汤普逊提子干 260g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/abdb788ecda09c6d178a3e9f015daa9c_380x380.jpg",
+                        "price": "5.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100104827,
+                        "integralAmout": "5000",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "咪咪辣鸭锁骨 195g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/f8530439ab7881c2509506b88fb42e25_380x380.jpg",
+                        "price": "13.9000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100849,
+                        "integralAmout": "8900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "软香奶萨萨 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9d39c0d3a51c12e7710b5004d9caebb5_380x380.jpg",
+                        "price": "10.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100104826,
+                        "integralAmout": "4000",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "香香榴莲饼 330g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/caaa4e0ed52dee2d3bd1a27527e12360_380x380.jpg",
+                        "price": "11.9000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100848,
+                        "integralAmout": "8900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "鲜米卷 160g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/c479d7bda2cbeeefaa28f11989757622_380x380.jpg",
+                        "price": "6.0000",
+                        "tags": [],
+                        "type": 0
+                    }
+                ]
+            },
+            {
+                "floorHead": {
+                    "name": "兑换中心3",
+                    "param": {
+                        "brand": "",
+                        "category": "",
+                        "id": 0,
+                        "keyword": "",
+                        "title": "",
+                        "url": "/"
+                    },
+                    "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/786c3c785f0906005442c61e8ea42641.jpg",
+                    "type": 0
+                },
+                "products": [
+                    {
+                        "id": 100100783,
+                        "integralAmout": "15900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "便当包",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7e9e3ccbfaab982831313f0c3c7d533f_380x380.jpg",
+                        "price": "0.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100779,
+                        "integralAmout": "9900",
+                        "limit": 1,
+                        "limitType": 1,
+                        "name": "擦手布",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a13ae838641fa2a84d259e9b51a0b891_380x380.jpg",
+                        "price": "0.0000",
+                        "tags": [],
+                        "type": 0
+                    },
+                    {
+                        "id": 100100794,
+                        "integralAmout": "5900",
+                        "limit": 3,
+                        "limitType": 1,
+                        "name": "馋嘴勺",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d86da94b9edd5802356cab1eca675877_380x380.jpg",
+                        "price": "0.0000",
+                        "tags": [],
+                        "type": 0
+                    }
+                ]
+            }
+        ],
+        "isShareable": false,
+        "carousel": []
+    },
+    "stateCode": 0
+}

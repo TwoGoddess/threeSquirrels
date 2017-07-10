@@ -1,0 +1,125 @@
+﻿{
+    "data": [
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/f90e777fb42a6216afb8b5daef066f27.jpg",
+            "id": "100100010",
+            "name": "坚果/炒货",
+            "params": {
+                "url": "/category?c=100100010"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/f90e777fb42a6216afb8b5daef066f27.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/894f71681d04d91c9183d1adc791cd6e.jpg",
+            "id": "100100011",
+            "name": "果干/蜜饯",
+            "params": {
+                "url": "/category?c=100100009"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/894f71681d04d91c9183d1adc791cd6e.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/fef0c69b9f9247dff1bf741abb1c29c2.jpg",
+            "id": "100100013",
+            "name": "肉类/熟食",
+            "params": {
+                "url": "/category?c=100100012"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/fef0c69b9f9247dff1bf741abb1c29c2.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/45869d2d421aaa40cd59a7bcadf36cf0.jpg",
+            "id": "100100012",
+            "name": "饼干/膨化",
+            "params": {
+                "url": "/category?c=100100014"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/45869d2d421aaa40cd59a7bcadf36cf0.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/59ba1e5e2c46acd273ccd7ccd1fbf701.jpg",
+            "id": "100100014",
+            "name": "糕点/点心",
+            "params": {
+                "url": "/category?c=100100013"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/59ba1e5e2c46acd273ccd7ccd1fbf701.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/4ff07ed5f7e9bb98e46053ed29555f13.jpg",
+            "id": "100100015",
+            "name": "素食/卤味",
+            "params": {
+                "url": "/category?c=100100015"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/4ff07ed5f7e9bb98e46053ed29555f13.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/c972a5b88e86658b9e1708a82a0feb7a.jpg",
+            "id": "100100025",
+            "name": "花果茶",
+            "params": {
+                "url": "/category?c=100100017"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/c972a5b88e86658b9e1708a82a0feb7a.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/c30fb0b15e1666e2b7d43a61245bacf6.jpg",
+            "id": "100100021",
+            "name": "海味/河鲜",
+            "params": {
+                "url": "/category?c=100100016"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/c30fb0b15e1666e2b7d43a61245bacf6.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/636df83b726bc980e95caacbc22ca4a5.jpg",
+            "id": "100100020",
+            "name": "传统茶",
+            "params": {
+                "url": "/category?c=100100024"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/636df83b726bc980e95caacbc22ca4a5.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/a9d5030af7a0d0cecd097d75c3f0f7f7.jpg",
+            "id": "100100024",
+            "name": "松鼠新品",
+            "params": {
+                "url": "/category?c=100100023"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/a9d5030af7a0d0cecd097d75c3f0f7f7.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/df3c1265ec1788f59d5d3842a0d3c018.jpg",
+            "id": "100100023",
+            "name": "松鼠周边",
+            "params": {
+                "url": "/category?c=100100019"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/df3c1265ec1788f59d5d3842a0d3c018.jpg",
+            "subNavigations": []
+        },
+        {
+            "activePic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/11d6259b316668c72faa5bc831660a05.jpg",
+            "id": "100100022",
+            "name": "礼盒/礼品",
+            "params": {
+                "url": "/category?c=100100018"
+            },
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/navicon/11d6259b316668c72faa5bc831660a05.jpg",
+            "subNavigations": []
+        }
+    ],
+    "stateCode": 0
+}

@@ -1,0 +1,159 @@
+﻿{
+    "data": {
+        "total": 5,
+        "page": "1",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104858,
+                "id": 100106852,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "40.0000"
+                },
+                "name": "蜜汁鳕鱼66g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bde3e6b1fdbb11f6918a0de7252e23c6_380x380.jpg",
+                "pictures": [
+                    100234581,
+                    100234582,
+                    100234583,
+                    100234584
+                ],
+                "productType": 0,
+                "reviewCount": 0,
+                "salesCount": 100,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "17.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104857,
+                "id": 100106851,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "手撕鱿鱼片60g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e8bd561c846c6821401c3167453107c0_380x380.jpg",
+                "pictures": [
+                    100234569,
+                    100234570,
+                    100234571,
+                    100234572
+                ],
+                "productType": 0,
+                "reviewCount": 0,
+                "salesCount": 100,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "9.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100562,
+                "id": 100100557,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "46.0000"
+                },
+                "name": "香辣味黑段带鱼 180g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2374dfb021615fd82f80cbbb21092849_380x380.jpg",
+                "pictures": [
+                    100149811,
+                    100149812,
+                    100149813,
+                    100149814
+                ],
+                "productType": 0,
+                "reviewCount": 155,
+                "salesCount": 5292,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "22.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100573,
+                "id": 100100568,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "46.0000"
+                },
+                "name": "糖醋味黑段带鱼 180g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7a33a829390b569550ddba4c0e217055_380x380.jpg",
+                "pictures": [
+                    100149795,
+                    100149796,
+                    100149797,
+                    100229863
+                ],
+                "productType": 0,
+                "reviewCount": 193,
+                "salesCount": 3613,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "22.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100510,
+                "id": 100100505,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "20.0000"
+                },
+                "name": "鲜爽鱿鱼足片 88g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/01b9704d907f757356f4603a040e0a94_380x380.jpg",
+                "pictures": [
+                    100152659,
+                    100152660,
+                    100152663,
+                    100152664
+                ],
+                "productType": 0,
+                "reviewCount": 2668,
+                "salesCount": 7890,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "9.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

@@ -1,0 +1,98 @@
+﻿{
+    "data": {
+        "total": 15,
+        "page": "2",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100396,
+                "id": 100100396,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "40.0000"
+                },
+                "name": "法兰西玫瑰 50g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/21841b7dec281c8257d2dddff091a7fc_380x380.jpg",
+                "pictures": [
+                    100117890,
+                    100117891,
+                    100117892,
+                    100117893
+                ],
+                "productType": 0,
+                "reviewCount": 757,
+                "salesCount": 6240,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "15.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100274,
+                "id": 100100274,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "大麦茶 60g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b8f880891c0d33772884373106800043_380x380.jpg",
+                "pictures": [
+                    100118720,
+                    100118721,
+                    100118722
+                ],
+                "productType": 0,
+                "reviewCount": 1336,
+                "salesCount": 3877,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "8.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100253,
+                "id": 100100253,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "37.5000"
+                },
+                "name": "彩虹甜心 125g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/6797f2ca140fddc004336d063199aebc_380x380.jpg",
+                "pictures": [
+                    100117886,
+                    100117887,
+                    100117888,
+                    100117889
+                ],
+                "productType": 0,
+                "reviewCount": 1032,
+                "salesCount": 4266,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "13.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

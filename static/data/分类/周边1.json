@@ -1,0 +1,333 @@
+﻿{
+    "data": {
+        "total": 13,
+        "page": "1",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100637,
+                "id": 100100632,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "22.0000"
+                },
+                "name": "永恒蓝心水杯",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/1d110288d37e8d5321e01a8f6a44e490_380x380.jpg",
+                "pictures": [
+                    100125402
+                ],
+                "productType": 0,
+                "reviewCount": 156,
+                "salesCount": 2703,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "6.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104802,
+                "id": 100104815,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "小美钥匙扣",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a1cdcbede0a26defb361d7c148d4512d_380x380.jpg",
+                "pictures": [
+                    100222384
+                ],
+                "productType": 0,
+                "reviewCount": 26,
+                "salesCount": 86,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "7.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104801,
+                "id": 100104814,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "小酷钥匙扣",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0a7340db02dcffd3d6833c9bfce19736_380x380.jpg",
+                "pictures": [
+                    100222404
+                ],
+                "productType": 0,
+                "reviewCount": 23,
+                "salesCount": 38,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "7.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100104800,
+                "id": 100104813,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "小贱钥匙扣",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/ca3254ded527046fd66471b0a46d5aec_380x380.jpg",
+                "pictures": [
+                    100222371
+                ],
+                "productType": 0,
+                "reviewCount": 21,
+                "salesCount": 78,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "7.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100811,
+                "id": 100100824,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "65.0000"
+                },
+                "name": "小酷美梦U枕",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a00aee3f49941ffd5d8fdcdbd782bd1a_380x380.jpg",
+                "pictures": [
+                    100222731
+                ],
+                "productType": 0,
+                "reviewCount": 4,
+                "salesCount": 33,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "27.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100805,
+                "id": 100100818,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "15.0000"
+                },
+                "name": "松鼠旅行箱贴",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/8dc9201cd45c81e41f2b24642a837ec4_380x380.jpg",
+                "pictures": [
+                    100222775
+                ],
+                "productType": 0,
+                "reviewCount": 12,
+                "salesCount": 36,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "5.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100804,
+                "id": 100100817,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "65.0000"
+                },
+                "name": "小美美梦U枕",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a73ceee32416676500742aec6d0a0f99_380x380.jpg",
+                "pictures": [
+                    100222751
+                ],
+                "productType": 0,
+                "reviewCount": 8,
+                "salesCount": 28,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "27.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100803,
+                "id": 100100816,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "65.0000"
+                },
+                "name": "小贱美梦U枕",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2dce920d63cd6e2fbc02277c50d3c806_380x380.jpg",
+                "pictures": [
+                    100222753
+                ],
+                "productType": 0,
+                "reviewCount": 13,
+                "salesCount": 27,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "27.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100658,
+                "id": 100100653,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "便当包",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d4e1703f085748416131f85658939f7f_380x380.jpg",
+                "pictures": [
+                    100128103
+                ],
+                "productType": 0,
+                "reviewCount": 270,
+                "salesCount": 2674,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "15.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100643,
+                "id": 100100638,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "12.0000"
+                },
+                "name": "收纳盒",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/4c4fe22fdd62a67f2f4ec2db7dc3ecc2_380x380.jpg",
+                "pictures": [
+                    100126401
+                ],
+                "productType": 0,
+                "reviewCount": 105,
+                "salesCount": 2611,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "5.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100638,
+                "id": 100100633,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "9.9000"
+                },
+                "name": "馋嘴勺",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/85c728b66f7894164d299413e314e4d7_380x380.jpg",
+                "pictures": [
+                    100125412
+                ],
+                "productType": 0,
+                "reviewCount": 123,
+                "salesCount": 2667,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "5.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100635,
+                "id": 100100630,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "18.0000"
+                },
+                "name": "擦手布",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/21ebb39f85a8c5d1ee75b31042077fd8_380x380.jpg",
+                "pictures": [
+                    100123799
+                ],
+                "productType": 0,
+                "reviewCount": 139,
+                "salesCount": 2684,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "12.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

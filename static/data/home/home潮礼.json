@@ -1,0 +1,126 @@
+﻿{
+    "data": {
+        "floors": [
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "超值精选 美味分享",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 285,
+                        "name": "森林大礼包C套餐 1550g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/1b354619e6c1c5b60a43bd06d02473fb_380x380.jpg",
+                        "productId": 100100740,
+                        "remarks": "",
+                        "salesPrice": 168,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "家庭套餐  越吃越滋味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 188,
+                        "name": "森林大礼包E套餐 1208g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3249af96ec1399e2bcea3e2b278430f4_380x380.jpg",
+                        "productId": 100100741,
+                        "remarks": "",
+                        "salesPrice": 89,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "亲朋好友 时尚首选",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 259,
+                        "name": "森林大礼包F套餐 1423g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7c63017696d6053254db7060e86925f9_380x380.jpg",
+                        "productId": 100100742,
+                        "remarks": "",
+                        "salesPrice": 119,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "异域风情 潮流罐装",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 398,
+                        "name": "舌尖全球礼盒 985g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2a1ef6979c4b3ba26e1788f8ee96b80f_380x380.jpg",
+                        "productId": 100100640,
+                        "remarks": "",
+                        "salesPrice": 188,
+                        "tags": []
+                    },
+                    {
+                        "alias": "千万主人钟爱的时尚潮礼",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 200,
+                        "name": "森林大礼包G套餐 1283g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3e3d9aa16c40eec3b88b280d54195ef2_380x380.jpg",
+                        "productId": 100100813,
+                        "remarks": "",
+                        "salesPrice": 88,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "送礼首选 高端“精”品",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 439,
+                        "name": "森林大礼包B套餐 2476g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/04175347f43b6b2bfedd993d905a1158_380x380.jpg",
+                        "productId": 100100743,
+                        "remarks": "",
+                        "salesPrice": 238,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "经典的才是永恒的",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 199,
+                        "name": "森林大礼包D套餐 1996g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3f26038820130278d9b83501f5782f1c_380x380.jpg",
+                        "productId": 100100468,
+                        "remarks": "",
+                        "salesPrice": 99,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    }
+                ],
+                "title": "松鼠潮礼"
+            }
+        ],
+        "banner": {
+            "name": "通栏",
+            "param": null,
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/081e910dc9ae80e220af66095b2a3b56.jpg",
+            "type": 1
+        }
+    },
+    "stateCode": 0
+}

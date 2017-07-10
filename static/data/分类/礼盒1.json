@@ -1,0 +1,218 @@
+﻿{
+    "data": {
+        "total": 7,
+        "page": "1",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100645,
+                "id": 100100640,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "398.0000"
+                },
+                "name": "舌尖全球礼盒 985g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2a1ef6979c4b3ba26e1788f8ee96b80f_380x380.jpg",
+                "pictures": [
+                    100144547,
+                    100144548,
+                    100144549,
+                    100144550
+                ],
+                "productType": 0,
+                "reviewCount": 104,
+                "salesCount": 5235,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "188.0000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100800,
+                "id": 100100813,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "200.0000"
+                },
+                "name": "森林大礼包G套餐 1283g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3e3d9aa16c40eec3b88b280d54195ef2_380x380.jpg",
+                "pictures": [
+                    100219803,
+                    100219804,
+                    100219805,
+                    100219806
+                ],
+                "productType": 0,
+                "reviewCount": 681,
+                "salesCount": 163,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "88.0000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100730,
+                "id": 100100743,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "439.0000"
+                },
+                "name": "森林大礼包B套餐 2476g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/04175347f43b6b2bfedd993d905a1158_380x380.jpg",
+                "pictures": [
+                    100219785,
+                    100219786,
+                    100219787,
+                    100219788
+                ],
+                "productType": 0,
+                "reviewCount": 346,
+                "salesCount": 12022,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "238.0000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100729,
+                "id": 100100742,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "259.0000"
+                },
+                "name": "森林大礼包F套餐 1423g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7c63017696d6053254db7060e86925f9_380x380.jpg",
+                "pictures": [
+                    100219790,
+                    100219791,
+                    100219792,
+                    100219793
+                ],
+                "productType": 0,
+                "reviewCount": 1684,
+                "salesCount": 12623,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "119.0000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100728,
+                "id": 100100741,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "188.0000"
+                },
+                "name": "森林大礼包E套餐 1208g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3249af96ec1399e2bcea3e2b278430f4_380x380.jpg",
+                "pictures": [
+                    100219795,
+                    100219796,
+                    100219797,
+                    100219798
+                ],
+                "productType": 0,
+                "reviewCount": 3016,
+                "salesCount": 15897,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "89.0000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100727,
+                "id": 100100740,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "285.0000"
+                },
+                "name": "森林大礼包C套餐 1550g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/1b354619e6c1c5b60a43bd06d02473fb_380x380.jpg",
+                "pictures": [
+                    100219799,
+                    100219800,
+                    100219801,
+                    100219802
+                ],
+                "productType": 0,
+                "reviewCount": 688,
+                "salesCount": 9641,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "168.0000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100473,
+                "id": 100100468,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "199.0000"
+                },
+                "name": "森林大礼包D套餐 1996g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3f26038820130278d9b83501f5782f1c_380x380.jpg",
+                "pictures": [
+                    100111302,
+                    100111303,
+                    100111304
+                ],
+                "productType": 0,
+                "reviewCount": 471,
+                "salesCount": 9927,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "99.0000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}

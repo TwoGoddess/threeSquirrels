@@ -1,0 +1,603 @@
+﻿{
+    "data": {
+        "floors": [
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "正宗地道 四川名菜",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 45,
+                        "name": "夫妻肺片 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/fbdfe5086035a624f54ecd71ae4f96ce_380x380.jpg",
+                        "productId": 100106830,
+                        "remarks": "",
+                        "salesPrice": 15.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/17906c22f33ef427fc02d0f0eed44bf7.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "川式卤味 够辣够劲道",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 45,
+                        "name": "孜香牛肚 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/ec21ed41609ed0c04725e080a8765fb1_380x380.jpg",
+                        "productId": 100106832,
+                        "remarks": "",
+                        "salesPrice": 19.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/17906c22f33ef427fc02d0f0eed44bf7.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "手撕鱿鱼片",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "手撕鱿鱼片60g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e8bd561c846c6821401c3167453107c0_380x380.jpg",
+                        "productId": 100106851,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/17906c22f33ef427fc02d0f0eed44bf7.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "蜜汁鳕鱼",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 40,
+                        "name": "蜜汁鳕鱼66g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bde3e6b1fdbb11f6918a0de7252e23c6_380x380.jpg",
+                        "productId": 100106852,
+                        "remarks": "",
+                        "salesPrice": 17.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/17906c22f33ef427fc02d0f0eed44bf7.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "让人流口水的牛板筋",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 27.5,
+                        "name": "烧烤味牛板筋 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a62883e5586346173bf8744d8dce7ff3_380x380.jpg",
+                        "productId": 100100436,
+                        "remarks": "",
+                        "salesPrice": 13.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "香辣入口 牛肉鲜香",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 45,
+                        "name": "香辣牛肉粒 110g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e0ec54f7caf45482f70bc5a0b686a2a2_380x380.jpg",
+                        "productId": 100100471,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "好吃不腻的Q弹烤肠",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 45,
+                        "name": "滋滋炭烤肠黑胡椒味 198g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/f9dadf67e6a0fe5c597fd417ac8b6079_380x380.jpg",
+                        "productId": 100100430,
+                        "remarks": "",
+                        "salesPrice": 21.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "辣的牛板筋爆爽来袭",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 27.5,
+                        "name": "麻辣味牛板筋 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d13f954e3d98c9b4ae833114988af601_380x380.jpg",
+                        "productId": 100100530,
+                        "remarks": "",
+                        "salesPrice": 13.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "多重美味的微妙融合",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 10.9,
+                        "name": "老爹鱼豆腐烧烤味 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/edf7d94abc3dc527d018fea77b87097f_380x380.jpg",
+                        "productId": 100100357,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "广式风味 鲜香酥嫩",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 55,
+                        "name": "黄金翅皇 160g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/6f1fca4e37a4e7a82cc2ea7ff1f49f2c_380x380.jpg",
+                        "productId": 100100870,
+                        "remarks": "",
+                        "salesPrice": 24.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "麻辣十足手撕才过瘾",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 85,
+                        "name": "麻辣手撕牛肉 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/520fb4039119eeced195b42a6715da0c_380x380.jpg",
+                        "productId": 100100497,
+                        "remarks": "",
+                        "salesPrice": 44.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "精心秘制XO酱更入味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 45,
+                        "name": "XO酱牛肉粒 110g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/6992b94e3af76f1e54e713c6a02410f2_380x380.jpg",
+                        "productId": 100100472,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "蜜汁猪肉条的鲜香融合",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 55,
+                        "name": "蜜汁猪肉条 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b3c98dd6c8cbe69b825e5088a8e47c5c_380x380.jpg",
+                        "productId": 100100543,
+                        "remarks": "",
+                        "salesPrice": 29.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "醇香劲道粒粒更好吃",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 55,
+                        "name": "五香猪肉粒 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/906966613c23bb0dfb7380c63f0ca217_380x380.jpg",
+                        "productId": 100100540,
+                        "remarks": "",
+                        "salesPrice": 25.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "正宗咖喱留住绵软肉丝",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 27.5,
+                        "name": "咖喱猪肉丝 100g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/64854cfcea9bcf0a9a734cf49b964a14_380x380.jpg",
+                        "productId": 100100501,
+                        "remarks": "",
+                        "salesPrice": 15.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "休闲零食 爽翻味蕾",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 79,
+                        "name": "猪八戒大战牛魔王",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/861242eadb89df77ec3be607bbd0cf67_380x380.jpg",
+                        "productId": 100100590,
+                        "remarks": "",
+                        "salesPrice": 49.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "五香料理才能Q劲十足",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 30,
+                        "name": "五香味牛肉片 100g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/aea25a1f2ee84b3ddb33e4daf8630960_380x380.jpg",
+                        "productId": 100100247,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "肉中藏筋 鲜嫩Q弹",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 60,
+                        "name": "老卤香（卤汁牛肉） 150g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/852714800290ea0a0f47990f8930e664_380x380.jpg",
+                        "productId": 100106837,
+                        "remarks": "",
+                        "salesPrice": 25.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/17906c22f33ef427fc02d0f0eed44bf7.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "优质猪肉的原生醇香",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 40,
+                        "name": "猪肉脯原味 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d7f87d8ff03a822123b621670ce77c55_380x380.jpg",
+                        "productId": 100100278,
+                        "remarks": "",
+                        "salesPrice": 17.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "大口吃肉的快感体验",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 30,
+                        "name": "香辣味牛肉片 100g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/f41bbc26af2acc87cc5b0bd8cd92ba90_380x380.jpg",
+                        "productId": 100100367,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    }
+                ],
+                "title": "肉食爆款"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "辣的过瘾啃的才带劲",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 40,
+                        "name": "泡椒凤爪 280g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/6ca19e79b4f2cc47252716c75befcad9_380x380.jpg",
+                        "productId": 100100286,
+                        "remarks": "",
+                        "salesPrice": 21.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "“辣”你还爱我吗？",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 40,
+                        "name": "香辣小鸡腿 160g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/f4cb45f97f6133c11a92f3d9078a45ab_380x380.jpg",
+                        "productId": 100100845,
+                        "remarks": "",
+                        "salesPrice": 16.9,
+                        "tags": []
+                    }
+                ],
+                "title": "啃出好味道"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "嚼出来的鲜活海味~",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "鲜香烤鱿鱼丝 88g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a9234a710822b7254d4e911eeb1bbbc6_380x380.jpg",
+                        "productId": 100100833,
+                        "remarks": "",
+                        "salesPrice": 11.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "鲜香麻辣爽到不能停",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 65,
+                        "name": "麻辣味灯影牛肉丝 260g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/5ea6ba15398780404d3541813609280c_380x380.jpg",
+                        "productId": 100100234,
+                        "remarks": "",
+                        "salesPrice": 28.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "川味烤肠的原始木香",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 50,
+                        "name": "川味一口肠 198g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d08f027ed43551df51afe7a71479b5b0_380x380.jpg",
+                        "productId": 100100532,
+                        "remarks": "",
+                        "salesPrice": 25.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "靖江好味道 美味猪肉香",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 46,
+                        "name": "猪肉脯自然片 150g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/18a587510b9a528c724f0f76e5e1468b_380x380.jpg",
+                        "productId": 100100567,
+                        "remarks": "",
+                        "salesPrice": 22.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "古法拆丝还原好味道",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 65,
+                        "name": "灯影牛肉丝五香味 260g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e070d505f947e006ae1d954d319bb747_380x380.jpg",
+                        "productId": 100100324,
+                        "remarks": "",
+                        "salesPrice": 28.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "边撕边吃享受大口快感",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 85,
+                        "name": "五香手撕牛肉 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/520fb4039119eeced195b42a6715da0c_380x380.jpg",
+                        "productId": 100100515,
+                        "remarks": "",
+                        "salesPrice": 44.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "一款媲美新鲜鱿鱼的海味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "鲜爽鱿鱼足片 88g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/01b9704d907f757356f4603a040e0a94_380x380.jpg",
+                        "productId": 100100505,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "人气单品 创意搭配",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 35,
+                        "name": "肉肉脆海苔味 100g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/8fe272015d08ab4513169e891d9111bf_380x380.jpg",
+                        "productId": 100100805,
+                        "remarks": "",
+                        "salesPrice": 13.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    }
+                ],
+                "title": "山珍海味"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "美味无骨，麻辣升级",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 60,
+                        "name": "咪咪辣无骨鸭掌 110g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e95bca4ddac16e64c701d41dabc3e951_380x380.jpg",
+                        "productId": 100100806,
+                        "remarks": "",
+                        "salesPrice": 26.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "肉质原香 吮指入味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 30,
+                        "name": "咪咪辣鸭脖 154g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/fab4c5e62e91cfc870c1344d61b0409c_380x380.jpg",
+                        "productId": 100100487,
+                        "remarks": "",
+                        "salesPrice": 19.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "微辣Q弹爽到不敢想",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 60,
+                        "name": "咪咪辣鸭肫 168g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e4b6eedc05baf76b99a61b7bcd3bbd54_380x380.jpg",
+                        "productId": 100100502,
+                        "remarks": "",
+                        "salesPrice": 26.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "卤汁不负 鸭掌厚爱",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 37.5,
+                        "name": "咪咪辣鸭掌 130g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/195c78d5b7d6d6fd9a3bef93bb76de47_380x380.jpg",
+                        "productId": 100100509,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "肉质紧实 微辣爽口 ",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 35,
+                        "name": "咪咪辣鸭翅 196g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/48ae90bfbfbb815db28fc04f23ab44c9_380x380.jpg",
+                        "productId": 100100563,
+                        "remarks": "",
+                        "salesPrice": 21.9,
+                        "tags": []
+                    }
+                ],
+                "title": "鸭里鸭气"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "鱼豆腐香辣味更尽兴哦",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 10.9,
+                        "name": "老爹鱼豆腐香辣味 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e622c571a5af54d73b59d03dcf029820_380x380.jpg",
+                        "productId": 100100439,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "鱼与蛋白的Q弹融合",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 10.9,
+                        "name": "原味老爹鱼豆腐 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/027af7c7ffe35a690c2fdfd4ed6b620d_380x380.jpg",
+                        "productId": 100100266,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "春水带鱼，东海好味道",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 46,
+                        "name": "糖醋味黑段带鱼 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7a33a829390b569550ddba4c0e217055_380x380.jpg",
+                        "productId": 100100568,
+                        "remarks": "",
+                        "salesPrice": 22.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "东海带鱼的香辣酥脆",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 46,
+                        "name": "香辣味黑段带鱼 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2374dfb021615fd82f80cbbb21092849_380x380.jpg",
+                        "productId": 100100557,
+                        "remarks": "",
+                        "salesPrice": 22.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "鱼肉有营养 香酥超鲜美",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "香酥小黄鱼香辣味 96g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d0d24f17af7e3e2e239d775554e67ae3_380x380.jpg",
+                        "productId": 100100808,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    }
+                ],
+                "title": "鱼你分享"
+            }
+        ],
+        "banner": {
+            "name": "通栏",
+            "param": null,
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/d5a352bd60454a811c21fd0e23c14d21.jpg",
+            "type": 1
+        }
+    },
+    "stateCode": 0
+}

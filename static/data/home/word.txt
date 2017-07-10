@@ -1,0 +1,200 @@
+home{
+    data{
+        channels{ //homeTab
+            id,name,
+            pic: 图片 // 有则加无则不加
+        },
+        carousel{ //轮播图
+            name,
+            pic: 图片
+        }
+        recommendChannel{
+            middleAdvs{//限时签到等四个
+                name,
+                pic: 图片
+            },
+            recommendAdvs{//爆款单品等三个
+                name,
+                pic: 图片
+            },
+            recommendActivitys{//特价专场
+                title: 特价专场
+                items: [
+                    {
+                        id,name
+                        pic: 图片
+                        countdown: 倒计时(毫秒)
+                    }
+                ]
+            },
+            flashSale{//限时专享
+                countDown: 倒计时(毫秒),
+                products: [
+                    {
+                        productId,
+                        name: 名称,
+                        pic: 图片,
+                        marketPrice: 原价,
+                        salesPrice: 现价
+                        tags:{ //有则加,无则不加
+                            pic: 图片
+                        }
+                    }
+                ]
+            },
+            heads{// 标题头
+                recommendFloor{
+                    title: 大家正在热评的零食
+                },
+                articleFloor{
+                    title: 编辑精选
+                },
+                promotionFloor{
+                    title: 本周卖得最好的10款零食
+                }
+            },
+            promotions{//本周卖得最好的10款零食
+                name,
+                pic: 图片
+            },
+             articles{//编辑精选
+                id,
+                title: 内容标题,
+                content: 详细介绍,
+                viewCount: 阅读数量 
+            },
+            floors{
+                title: 昨日卖的最好的20款商品,
+                products: [
+                    {
+                        productId,
+                        alias: 标题,
+                        name: 名称,
+                        marketPrice: 原价,
+                        salesPrice: 现价,
+                        tags:[
+                            {
+                                pic:左上角图片
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+home1{
+    data{
+        page: 1
+        items[//大家正在热评的零食
+            {
+                productId,
+                alias: 标题,
+                name: 名称,
+                marketPrice: 原价,
+                salesPrice: 现价,
+                remarks: 主人说:
+                tags:[
+                    {
+                        pic:左上角图片
+                    }
+                ]
+            }
+        ]
+    }
+}
+home2{// 23条以后加载
+    data{
+        page: 2
+        items[//大家正在热评的零食
+            {
+                productId,
+                alias: 标题,
+                name: 名称,
+                marketPrice: 原价,
+                salesPrice: 现价,
+                remarks: 主人说:
+                tags:[
+                    {
+                        pic:左上角图片
+                    }
+                ]
+            }
+        ]
+    }
+}
+home3{// 34条以后加载
+    data{
+        page: 3
+        items[//大家正在热评的零食
+            {
+                productId,
+                alias: 标题,
+                name: 名称,
+                marketPrice: 原价,
+                salesPrice: 现价,
+                remarks: 主人说:
+                tags:[
+                    {
+                        pic:左上角图片
+                    }
+                ]
+            }
+        ]
+    }
+}
+home坚果{
+    data{
+        banner{//通栏
+            pic: 图片
+        },
+        floors[
+            {
+                title: 标题,
+                products:[
+                    {
+                        productId,
+                        alias: 标题,
+                        name: 名称,
+                        marketPrice: 原价,
+                        salesPrice: 现价,
+                        remarks: 主人说:
+                        tags:[
+                            {
+                                pic:左上角图片
+                            }
+                        ] 
+                    }
+                ]
+            }
+        ]
+    }
+}
+home量贩{
+    data{
+        banner{//通栏
+            pic: 图片
+        },
+        floors[
+            {
+                title: 标题,
+                products:[
+                    {
+                        productId,
+                        alias: 标题,
+                        name: 名称,
+                        marketPrice: 原价,
+                        salesPrice: 现价,
+                        remarks: 主人说:
+                        tags:[
+                            {
+                                pic:左上角图片
+                            }
+                        ] 
+                    }
+                ]
+            }
+        ]
+    }
+}
+...

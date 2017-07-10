@@ -1,0 +1,130 @@
+﻿{
+    "data": {
+        "total": 16,
+        "page": "2",
+        "items": [
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100369,
+                "id": 100100369,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "35.0000"
+                },
+                "name": "原味一口凤梨酥 300g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/fa9de111c6cff3b7b3812b4a0649ff7e_380x380.jpg",
+                "pictures": [
+                    100106890,
+                    100106891,
+                    100106892,
+                    100106893
+                ],
+                "productType": 0,
+                "reviewCount": 1365,
+                "salesCount": 8426,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "18.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100255,
+                "id": 100100255,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "42.0000"
+                },
+                "name": "原味黄金肉松饼 456g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/69c5443fcb98099b4024bef85e8e157b_380x380.jpg",
+                "pictures": [
+                    100106377,
+                    100106378,
+                    100106379,
+                    100106380
+                ],
+                "productType": 0,
+                "reviewCount": 3980,
+                "salesCount": 4903,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "16.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100254,
+                "id": 100100254,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "25.0000"
+                },
+                "name": "牛嘎牛轧糖花生味 188g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/eeb1b5adf85ff1eefbd868f8d6588868_380x380.jpg",
+                "pictures": [
+                    100106382,
+                    100106384,
+                    100106385,
+                    100106387,
+                    100229978
+                ],
+                "productType": 0,
+                "reviewCount": 2256,
+                "salesCount": 4112,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "12.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            },
+            {
+                "brand": "默认三只松鼠",
+                "defaultGoodsId": 100100246,
+                "id": 100100246,
+                "integralAmount": 0,
+                "marketPrice": {
+                    "name": "市场价",
+                    "type": "4",
+                    "value": "18.3000"
+                },
+                "name": "和风椰丝麻薯 210g",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0b0eb688ef77356876919c40a31ad94d_380x380.jpg",
+                "pictures": [
+                    100152709,
+                    100152710,
+                    100152711,
+                    100152712
+                ],
+                "productType": 0,
+                "reviewCount": 1580,
+                "salesCount": 4788,
+                "salesPrice": {
+                    "name": "销售价",
+                    "type": "0",
+                    "value": "8.9000"
+                },
+                "stockTips": "",
+                "subsiteId": 1,
+                "tags": []
+            }
+        ]
+    },
+    "stateCode": 0
+}
