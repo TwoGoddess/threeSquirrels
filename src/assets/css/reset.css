@@ -10,6 +10,7 @@ fieldset, lengend, button, input, textarea, /*表单元素*/
 th, td, /*表格元素*/
 pre /*文本格式元素*/ {
     margin: 0;
+    color: #262626;
 }
 
 
@@ -34,7 +35,7 @@ address, cite, dfn, em, var {
 /*清下划线*/
 a {
     text-decoration: none;
-    color: black;
+    color: #262626;
 }
 /*鼠标略过a标签，显示下划线*/
 a:hover {
@@ -47,4 +48,10 @@ a:hover {
     content: '';
     display: block;
     clear: both;
+}
+
+/*button默认样式*/
+button{
+    border: none;
+    background: none;
 }

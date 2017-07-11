@@ -1,0 +1,21 @@
+@color: #666;
+@myname: footer
+.color{
+    background: #f0f
+}
+
+div{
+    color: @color;
+    .color;
+    .@{myname}{
+        color: @color+111
+        &:after {
+            content: " ";
+            display: block;
+            font-size: 0;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    }
+}
