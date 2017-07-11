@@ -1,17 +1,17 @@
 <template>
     <div id="app">
-        <sfooter></sfooter>
+        <squirrel-main></squirrel-main>
     </div>
 </template>
 
 <script>
 
-import sfooter from './pages/Footer'
+import squirrelMain from './pages/Main'
 
 export default {
     name: 'app',
     components: {
-        sfooter
+        squirrelMain
     },
     // methods: {
     //     getData(){
@@ -32,20 +32,4 @@ export default {
 
 <style lang="less">
     @import './assets/css/reset.css';
-    @color: red;
-    h1{
-        color: @color;
-    }
-    .footer{
-        display: flex;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        justify-content: space-around;
-        height: 60px;
-        line-height: 60px;
-        font-size: 16px;
-        background-color: #ddd;
-    }
 </style>

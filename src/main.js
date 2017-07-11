@@ -15,6 +15,8 @@ Vue.prototype.axios = axios
 import flexible from "./assets/js/flexible"
 flexible(window)
 
+import store from "./vuex/store"
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -13,10 +13,25 @@
 
 <script>
 export default {
-
+    
 }
 </script>
 
-<style>
-
+<style lang="less">
+    .footer{
+        display: flex;
+        position: fixed;
+        padding-top: 2px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        a{
+            padding-top: 30zpx;
+            width: 20%; 
+            text-align: center;
+            font-size: 10px;
+            color: #585858;
+        }
+    }
 </style>
