@@ -1,18 +1,15 @@
 <template>
     <div>
         <tool-bar></tool-bar>
-        <swiper></swiper>
     </div>
 </template>
 
 <script>
 import toolBar from './ToolBar'
-import swiper from './Swiper'
 
 export default {
     components: {
-        toolBar,
-        swiper
+        toolBar
     }
 }
 </script>
