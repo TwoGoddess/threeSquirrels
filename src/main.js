@@ -17,12 +17,20 @@ flexible(window)
 
 import store from "./vuex/store"
 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+Vue.use(VueAwesomeSwiper)
+
+// 过滤器
+import filter from "./assets/js/filter"
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App },
+  components: {App},
   router
 })
+
+

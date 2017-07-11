@@ -1,12 +1,17 @@
 <template>
     <div>
-        Mine
+        <description></description>
     </div>
 </template>
 
 <script>
+import Description from '../../components/Description'
+
 export default {
-    name: 'mine'
+    name: 'mine',
+    components: {
+        Description
+    }
 }
 </script>
 

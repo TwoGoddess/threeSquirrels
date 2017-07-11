@@ -27,11 +27,12 @@ export default {
     data(){
         return{
             count: 1,
-            squirrelB: 78
+            squirrelB: 78,
+            
         }
     },
     methods(){
-
+        
     }
 }
 </script>
@@ -44,6 +45,8 @@ export default {
         width: 100%;
         height: 4.5rem;
         position: relative;
+        padding-top: 43px;
+        border-bottom: 4px solid #f9f9f9;
         .squirrel_sign{
             width: 80%;
             margin: 0 auto;
@@ -58,7 +61,7 @@ export default {
             .squirrel_B::after{
                 position: absolute;
                 background-color: #757575;
-                top: 37%;
+                top: 48%;
                 width: 70px;
                 margin: 0 auto;
                 height: 5px;
@@ -113,7 +116,7 @@ export default {
         }
         .sign{
             position: absolute;
-            top: 1rem;
+            top: 2rem;
             right: 0;
             font-size: 14px;
             background-color: #77bc1f;

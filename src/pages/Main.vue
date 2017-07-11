@@ -1,6 +1,6 @@
 <template>
     <div>
-        <router-view></router-view>
+        <router-view class="main"></router-view>
         <div class="footer">
             <router-link to="/home">首页</router-link>
             <router-link to="/classify">分类</router-link>
@@ -18,16 +18,21 @@ export default {
 </script>
 
 <style lang="less">
+    .main{
+        padding-bottom: 50px;
+    }
     .footer{
         display: flex;
         position: fixed;
         padding-top: 2px;
-        bottom: 0;
+        bottom: -2px;
         left: 0;
         right: 0;
         height: 50px;
+        z-index: 10;
+        background: #fff;
         a{
-            padding-top: 30zpx;
+            padding-top: 30px;
             width: 20%; 
             text-align: center;
             font-size: 10px;
