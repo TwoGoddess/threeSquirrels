@@ -14,8 +14,8 @@ Vue.prototype.axios = axios
 // 屏幕适配
 import rem from "./assets/js/rem"
 rem(document,window)
-import flexible from "./assets/js/flexible"
-flexible(window)
+// import flexible from "./assets/js/flexible"
+// flexible(window)
 
 //懒加载图片插件
 import VueLazyLoad from 'vue-lazy-load'

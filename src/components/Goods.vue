@@ -19,18 +19,19 @@ export default {
     }
     .grey{
         color: #999;
-        font-size: 13px;
+        font-size: 1rem;
     }
     .goods_content{
         box-sizing:border-box;
         width: 50%;
-        font-size: 15px;
+        font-size: 1rem;
         display: inline-block;
         position: relative;
         float: left;
         background-color: #fff;
-        border-right: .1rem solid #f9f9f9;
-        border-bottom: .1rem solid #f9f9f9;
+        border-right: .3rem solid #f9f9f9;
+        border-bottom: .3rem solid #f9f9f9;
+        padding-bottom: .5rem;
         img{
             width: 100%;
             height: auto;
@@ -39,11 +40,11 @@ export default {
             overflow: hidden;
             text-overflow:ellipsis;
             white-space: nowrap;
-            padding: 0 .2rem;
-            line-height: .43rem;
+            padding: 0 .8rem;
+            line-height: 1.5rem;
             .green::before{
                 content: "✿";
-                padding: 0 5px;
+                padding: 0 .2rem;
             }
         }
     }

@@ -34,10 +34,10 @@ export default {
     }
     .Squirrel_title{
         width: 100%;
-        border-top: 4px solid #f9f9f9;
-        border-bottom: 4px solid #f9f9f9;
-        height: .7rem;
-        line-height: .7rem;
+        border-top: .3rem solid #f9f9f9;
+        border-bottom: .3rem solid #f9f9f9;
+        height: 2.5rem;
+        line-height: 2.5rem;
         img{
             width: 100%;
             height: auto;

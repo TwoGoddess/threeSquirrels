@@ -26,20 +26,20 @@ export default {
         top: 0;
         left: 0;
         right: 0;
-        height: 43px;
+        height: 3rem;
         z-index: 10;
         p{
-            font-size: 17px;
+            font-size: 1.1rem;
             text-align: center;
             width: 100%;
-            line-height: 43px;
+            line-height: 3rem;
             background: #fff;
         }
         button{
             position: absolute;
-            font-size: 25px;
-            left: .2rem;
-            line-height: 43px;
+            font-size: 2rem;
+            left: .5rem;
+            line-height: 3rem;
         }
     }
 </style>

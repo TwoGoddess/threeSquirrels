@@ -37,8 +37,7 @@ export default {
 		}
 	},
 	created(){
-		this.axios.get('../../static/data/classify/分类-list.json')
-        .then(res=>{
+		this.axios.get('../../../static/data/classify/分类-list.json').then(res=>{
 			this.classifyLists = res.data.data;
 			console.log(this.classifyLists);
 			// this.id = this.$route.params.id;
@@ -53,26 +52,27 @@ export default {
 
 <style>
 	.classify-titlebox{
-		height: 43px;
+		height: 3.666667rem;
 	}
 	/*分类标题样式*/
 	.classify-title{
-		height: 43px;
-		font-size: 17px;
+		height: 3.583333rem;
+		font-size: 1.416667rem;
 		text-align: center;
-		line-height: 43px;
+		line-height: 3.583333rem;
+		border-bottom: 0.083333rem solid #e4e4e4;
 		background-color: #fff;
 		/*定位*/
 		position: fixed;
 		top: 0;
 		left: 0;
 		right: 0;
-        z-index: 10;  
+
 	}
 
 	/*分类页面模块样式*/
 	.classify-content{
-        height: 15rem;
+		height: 38.666667rem;
 		overflow-y: scroll;
 		position: absolute;
 	}

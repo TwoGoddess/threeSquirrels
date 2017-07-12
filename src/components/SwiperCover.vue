@@ -39,10 +39,11 @@
 </script>  
 <style lang="less">
     .swiper-container{
+        height: 12rem;
         width: 100%;
         img{
             width:100%;
-            height: auto;
+            height: 12rem;
         }
     }
 </style>  

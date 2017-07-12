@@ -43,26 +43,26 @@ export default {
     }
     .squirrel_mine{
         width: 100%;
-        height: 4.5rem;
+        height: 17rem;
         position: relative;
-        padding-top: 43px;
-        border-bottom: 4px solid #f9f9f9;
+        padding-top: 3rem;
+        background-color: #fff;
         .squirrel_sign{
             width: 80%;
             margin: 0 auto;
             text-align: center;
-            height: 3.2rem;
-            font-size: 14px;
+            height: 12rem;
+            font-size: 1rem;
             .squirrel_B{
-                font-size: 38px;
+                font-size: 3rem;
                 color: #ff9601;
                 padding-bottom: .3rem;
             }
             .squirrel_B::after{
                 position: absolute;
                 background-color: #757575;
-                top: 48%;
-                width: 70px;
+                top: 9.2rem;
+                width: 5rem;
                 margin: 0 auto;
                 height: 5px;
                 right: 0;
@@ -75,34 +75,32 @@ export default {
                 opacity: .3;
             }
             p{
-                line-height: .7rem;
+                line-height: 2.3rem;
                 font-weight: 600;
             }
             button{
-                font-size: 16px;
+                font-size: 1.1rem;
                 border-radius: 20px;
                 background-color: #77bc1f;
                 color: #fff;
-                padding: 5px 20px;
+                line-height: 1.4rem;
+                padding: .4rem 1.5rem;
             }
         }
         .squirrel_convert{
-            border-top: 1px solid #ddd;
+            border-top: .01rem solid #f9f9f9;
             width: 100%;
-            height: 1.3rem;
+            height: 5rem;
             .convert_left,.convert_right{
                 box-sizing:border-box;
                 width: 50%;
-                height: 1.3rem;
+                height: 5rem;
                 float: left;
-                font-size: 14px;
-                background: url(http://m.3songshu.com/resources/images/icon-bag@2x.cbfb82c6.png) no-repeat .3rem center;
-                background-size: .8rem;
-                padding:.4rem 0 0 1.2rem;
-                border-right: 1px solid #ddd;
-                h3{
-                    width: 70%;
-                }
+                font-size: .9rem;
+                background: url(http://m.3songshu.com/resources/images/icon-bag@2x.cbfb82c6.png) no-repeat 1rem center;
+                background-size: 3.5rem;
+                padding: 1.3rem 0 0 5rem;
+                border-right: .01rem solid #f9f9f9;
                 p{
                     color: #999;
                 }
@@ -110,19 +108,19 @@ export default {
             .convert_right{
                 float: right;
                 border: none;
-                background: url(http://m.3songshu.com/resources/images/icon-change-list@2x.92d60251.png) no-repeat .3rem center;
-                background-size: .8rem;
+                background: url(http://m.3songshu.com/resources/images/icon-change-list@2x.92d60251.png) no-repeat 1rem center;
+                background-size: 3.5rem;
             }
         }
         .sign{
             position: absolute;
-            top: 2rem;
+            top: 6rem;
             right: 0;
-            font-size: 14px;
+            font-size: 1rem;
             background-color: #77bc1f;
             color: #fff;
-            padding: .05rem .15rem;
-            border-radius: 10px 0 0 10px;
+            padding: .2rem .5rem;
+            border-radius: .7rem 0 0 .7rem;
         }
     }
 </style>

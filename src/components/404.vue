@@ -1,6 +1,6 @@
 <template>
     <div class="four">
-        <img src="../../static/imgs/404.jpg"/>
+        <img src="../../static/img/404.jpg"/>
     </div>
 </template>
 
