@@ -15,8 +15,8 @@
     "less-loader": "^4.0.4",
     "vue": "^2.3.3",
     "vue-awesome-swiper": "^2.5.4",
-    "vue-router": "^2.7.0",
     "vue-lazy-load": "0.0.7",
+    "vue-router": "^2.7.0",
     "vuex": "^2.3.1"
   },
   "devDependencies": {

@@ -1,0 +1,1132 @@
+﻿{
+    "data": {
+        "floors": [
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "轻薄脆片 果香曼妙",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 12,
+                        "name": "香蕉脆片 70g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b10b7bb3a77cbedd5a8ad3b743f7d11c_380x380.jpg",
+                        "productId": 100104831,
+                        "remarks": "",
+                        "salesPrice": 5.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/17906c22f33ef427fc02d0f0eed44bf7.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "从澳洲飘来的牛奶香味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 32,
+                        "name": "夏威夷果 185g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/ab7a28c36323778abbef77268f5a3017_380x380.jpg",
+                        "productId": 100100284,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "销量第一的明星坚果",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 33,
+                        "name": "碧根果 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0ddba4d5be416ef69fe4b7ab420a9066_380x380.jpg",
+                        "productId": 100100444,
+                        "remarks": "",
+                        "salesPrice": 19.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "红薯干",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 13,
+                        "name": "软绵绵（红薯干）80g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a38003f5caf8dcd45921fbd295635e40_380x380.jpg",
+                        "productId": 100106855,
+                        "remarks": "",
+                        "salesPrice": 5.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/17906c22f33ef427fc02d0f0eed44bf7.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "热带雨林的炭烧风情",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 34,
+                        "name": "【爆卖】炭烧腰果185g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/84b0e01f3e09f74693527ce987744068_380x380.jpg",
+                        "productId": 100100288,
+                        "remarks": "",
+                        "salesPrice": 19.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "手剥有乐趣 香滑好口感",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 42,
+                        "name": "手剥巴旦木 235g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/5d82a7bd4609647d19843177a49e5546_380x380.jpg",
+                        "productId": 100100353,
+                        "remarks": "",
+                        "salesPrice": 17.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "五年等一回的纯粹美味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 43.5,
+                        "name": "开口松子原味 218g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7df14f676f4d4df5ba0554f24f2c2d54_380x380.jpg",
+                        "productId": 100100321,
+                        "remarks": "",
+                        "salesPrice": 24.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "浓郁奶香春天的味道",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 36,
+                        "name": "夏威夷果 265g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/dcb21f5a71ad4025a096d123ce25e67a_380x380.jpg",
+                        "productId": 100100320,
+                        "remarks": "",
+                        "salesPrice": 22.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "热带果王 当然紫花芒",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 23,
+                        "name": "芒果干 116g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/865ef982c26529155b36126a7717be6a_380x380.jpg",
+                        "productId": 100100385,
+                        "remarks": "",
+                        "salesPrice": 12.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "正宗原产香脆你的味觉",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 49,
+                        "name": "野生山核桃仁 155g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9c7524b93307e9e29b2bcdc1c915233d_380x380.jpg",
+                        "productId": 100100282,
+                        "remarks": "",
+                        "salesPrice": 23.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "自然香酥的开心动力",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 76,
+                        "name": "开心果 225g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/80aa5e00884ec7ce94ceb523a520356d_380x380.jpg",
+                        "productId": 100100339,
+                        "remarks": "",
+                        "salesPrice": 29.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "带着王冠的坚果王子",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 35,
+                        "name": "碧根果 225g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/d8536a080f1ff5aba1a64cc4e3cae99c_380x380.jpg",
+                        "productId": 100100316,
+                        "remarks": "",
+                        "salesPrice": 20.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "去燕山探源无污染板栗",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "美栗甘栗仁 100g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b09b36337313392e25498a36d9eecd64_380x380.jpg",
+                        "productId": 100100392,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "清新果味 首选草莓",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 27.5,
+                        "name": "草莓干 106g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b54e87efc52555c075fb5a53545a7810_380x380.jpg",
+                        "productId": 100100309,
+                        "remarks": "",
+                        "salesPrice": 12.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "外在内在全新升级",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "紫薯花生 205g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/55e9fe5ce4c2f383d8bdea4b57b59df1_380x380.jpg",
+                        "productId": 100100820,
+                        "remarks": "",
+                        "salesPrice": 6.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "蟹黄与葵花籽香味共融",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "蟹黄瓜子仁 218g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/596370bac25216f2469f8ea235b8cdef_380x380.jpg",
+                        "productId": 100100527,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "甜中夹脆 营养翻倍",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 75,
+                        "name": "枣夹核桃仁 258g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a08c3f3fd84bd5a7601531510f05952e_380x380.jpg",
+                        "productId": 100100625,
+                        "remarks": "",
+                        "salesPrice": 28.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "奶香核桃 手剥即食",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 68,
+                        "name": "手剥山核桃奶油味 235g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2327373405f4199475ea2aa7b7a858e5_380x380.jpg",
+                        "productId": 100100445,
+                        "remarks": "",
+                        "salesPrice": 34.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "开口均匀更有天然松香",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 85,
+                        "name": "纯粹丨手剥松子125g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a7b3d2c1b2878ee2800e551901179ba5_380x380.jpg",
+                        "productId": 100100313,
+                        "remarks": "",
+                        "salesPrice": 45.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "明星配料紫薯粉请看这",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "紫薯花生 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/da7f558fb0b09e3f2d77652186b63e0a_380x380.jpg",
+                        "productId": 100100332,
+                        "remarks": "",
+                        "salesPrice": 6.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    }
+                ],
+                "title": "热卖爆款"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "清新原味才是优质核桃",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 38,
+                        "name": "纸皮核桃 210g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/05ca26715777e60e18d097ba0af8453a_380x380.jpg",
+                        "productId": 100100329,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "蚕豆清香 余味悠长",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "兰花豆 205g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b6eee55d10ab574e4069f011ce21b90b_380x380.jpg",
+                        "productId": 100100551,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "一颗可补充能量的能栗",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "能栗开口甘栗 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/90f1defbd94df780b2c050ed64d44811_380x380.jpg",
+                        "productId": 100100303,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "嗑粒瓜子，唠唠家常",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "奶油味瓜子 168g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/55e4689ca61e33e26abd92c1be15d552_380x380.jpg",
+                        "productId": 100100503,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "明星坚果 怦然“星”动",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 80,
+                        "name": "明星坚果组合 630g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/ea97f603137abdc93e1e3acc5a4b4980_380x380.jpg",
+                        "productId": 100100736,
+                        "remarks": "",
+                        "salesPrice": 52.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "浙江原产 好吃不上火",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 31,
+                        "name": "吊瓜子(奶油) 225g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/686d6ce47f49b022536ab7999fe18fe8_380x380.jpg",
+                        "productId": 100100340,
+                        "remarks": "",
+                        "salesPrice": 21.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "醇香酥脆 入口香浓",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 42.9,
+                        "name": "原味榛子 185g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b5f60586848c5d55621095d3bcee82ba_380x380.jpg",
+                        "productId": 100100798,
+                        "remarks": "",
+                        "salesPrice": 19.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "瓜子甜蜜蜜，甜蜜在心底",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "甜蜜蜜瓜子 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/1b867a18ee53e67968ccb4dda255052d_380x380.jpg",
+                        "productId": 100100617,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "瓜子中的上品 清香袭人",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 36,
+                        "name": "瓜蒌子 205g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/8a52cbceade984ebb4cc019c728b86c5_380x380.jpg",
+                        "productId": 100100518,
+                        "remarks": "",
+                        "salesPrice": 21.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "诸暨产的“千年圣果”",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 118,
+                        "name": "香榧 155g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3481b512b2f23ac2b56f414384daada4_380x380.jpg",
+                        "productId": 100100240,
+                        "remarks": "",
+                        "salesPrice": 49.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "感受轻松手剥的乐趣",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 36,
+                        "name": "山核桃椒盐味 95g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/43332108efa56659fb8340c6a5bb39ca_380x380.jpg",
+                        "productId": 100100598,
+                        "remarks": "",
+                        "salesPrice": 25.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "品手剥果仁 赏临安美景",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 36,
+                        "name": "山核桃奶油味 95g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e27afa2ccd318b7928d99e308148449b_380x380.jpg",
+                        "productId": 100100507,
+                        "remarks": "",
+                        "salesPrice": 25.9,
+                        "tags": []
+                    }
+                ],
+                "title": "带壳坚果"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "一颗嘎嘣脆的新鲜",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "多味花生 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/ecc8b889dacf897cdd7f7ada9da84915_380x380.jpg",
+                        "productId": 100100455,
+                        "remarks": "",
+                        "salesPrice": 6.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "熬夜党的深夜福利",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "多味花生 205g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/cc69afc58e4e8a0f259dac1f120d45ae_380x380.jpg",
+                        "productId": 100100553,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "手工去壳吃的更安心",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 52,
+                        "name": "碧根果仁 165g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9aed69ec36742d018109888c83aeea75_380x380.jpg",
+                        "productId": 100100457,
+                        "remarks": "",
+                        "salesPrice": 33.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "多彩坚果 缤纷滋味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 214,
+                        "name": "七彩果味组合 1431g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a13f2f2b71a31511d85aea53a5e6f0bd_380x380.jpg",
+                        "productId": 100100760,
+                        "remarks": "",
+                        "salesPrice": 102,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "穿上糖衣 与你甜蜜",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 39.9,
+                        "name": "琥珀核桃仁 165g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/97ee297dc1d3f9e974eb44b5e54db527_380x380.jpg",
+                        "productId": 100100414,
+                        "remarks": "",
+                        "salesPrice": 17.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "腰果里盐焗“优等生”",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 45,
+                        "name": "盐焗腰果 185g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/ea9ff520c177fc3e0d2611a00f32499c_380x380.jpg",
+                        "productId": 100100336,
+                        "remarks": "",
+                        "salesPrice": 24.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "咸香豆瓣你一定会爱上",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "兰花豆牛肉味 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/8d7a6df22a78564c26c17064bdabae93_380x380.jpg",
+                        "productId": 100100248,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "红棕鲜亮 生脆酥松",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 79,
+                        "name": "山核桃仁 155g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/39a3798c153a4ac9641d851d1af94201_380x380.jpg",
+                        "productId": 100100419,
+                        "remarks": "",
+                        "salesPrice": 39.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "每一颗果仁都认真对待",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 56,
+                        "name": "巴旦木仁 235g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e88c0d13c365d9034c615ad6d5415477_380x380.jpg",
+                        "productId": 100100307,
+                        "remarks": "",
+                        "salesPrice": 29.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "八种搭配 活力全天",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 80,
+                        "name": "能量果仁 182g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/39b0c17038f0dce61fc80ccdfc9677f2_380x380.jpg",
+                        "productId": 100100752,
+                        "remarks": "",
+                        "salesPrice": 29.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "一口花生，一壶好酒",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "奶香花生 150g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/72d51829d272b2818730da9a472fde99_380x380.jpg",
+                        "productId": 100100513,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "多彩什锦豆 缤纷好滋味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "缤纷什锦豆 300g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/4043178031ac20c53c84cd36604c44a3_380x380.jpg",
+                        "productId": 100100749,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "正宗原产香脆你的味觉",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 49,
+                        "name": "野生山核桃仁 155g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9c7524b93307e9e29b2bcdc1c915233d_380x380.jpg",
+                        "productId": 100100282,
+                        "remarks": "",
+                        "salesPrice": 23.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "粒粒青豆酥脆的不得了",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "蒜香豌豆 90g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/82366bf254b2c185c999f0330d0db42f_380x380.jpg",
+                        "productId": 100100433,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "花生虽黑但味道好呀",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 11,
+                        "name": "黑皮花生 145g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0b51a1c80c0924726d230aed5c32640f_380x380.jpg",
+                        "productId": 100100452,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "酸爽酥脆好味道",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "老醋蚕豆 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/6d566bab79e39d5ba8bff192e83b1325_380x380.jpg",
+                        "productId": 100100559,
+                        "remarks": "",
+                        "salesPrice": 11.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "“救世食谷”便携才好",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 16,
+                        "name": "香酥绿豆 125g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/be73af56f3d9c534e7502b97e3fd8dea_380x380.jpg",
+                        "productId": 100100504,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "奶香蜂蜜竟是这个味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 59,
+                        "name": "蜜味夏威夷果仁 135g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b917a338ca01960f80b11829b30939d6_380x380.jpg",
+                        "productId": 100100398,
+                        "remarks": "",
+                        "salesPrice": 33.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "果干坚果 美味加分",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 75,
+                        "name": "蔓越莓腰果 160g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/f1758cf20cff88f1fb722addae89e8c6_380x380.jpg",
+                        "productId": 100100790,
+                        "remarks": "",
+                        "salesPrice": 32.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "香衣配美人 健康新主张",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 85,
+                        "name": "蜂蜜黄油巴旦木 208g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/57d864059b9968be114bf67840c00de3_380x380.jpg",
+                        "productId": 100100802,
+                        "remarks": "",
+                        "salesPrice": 36.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "一仁一果 绝妙搭配",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 95,
+                        "name": "芒果核桃仁 160g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/34c4781d37a8e02fd1e242b4672b062b_380x380.jpg",
+                        "productId": 100100791,
+                        "remarks": "",
+                        "salesPrice": 42.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "有绿卡的加州核桃",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 38.8,
+                        "name": "加州脱衣核桃仁 185g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7aa6aee02df499128341831f796094f7_380x380.jpg",
+                        "productId": 100100361,
+                        "remarks": "",
+                        "salesPrice": 38.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "青豆和笋丝春意情绵绵",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 19.9,
+                        "name": "情丝豆 145g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bc0d4200f055aac7214f9538ec55cdc2_380x380.jpg",
+                        "productId": 100100535,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "蟹黄的鲜香 蚕豆好滋味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 19.9,
+                        "name": "蟹黄蚕豆 205g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/87373795a5202cc4fbb3160209b3282a_380x380.jpg",
+                        "productId": 100100516,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "好鲜浓的牛肉味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 15,
+                        "name": "牛肉豌豆 90g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e70ba0e013f54ecc3c3c6a1ee52e9479_380x380.jpg",
+                        "productId": 100100388,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "产于长白山的原始松子",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 75,
+                        "name": "东北松子仁 125g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/34af43107184dec9f37cfa7684819fea_380x380.jpg",
+                        "productId": 100100363,
+                        "remarks": "",
+                        "salesPrice": 46.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "童年的记忆绿豆就够了",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 20,
+                        "name": "香酥绿豆 205g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/aad4b66e6993d4e75a8ef0d698baface_380x380.jpg",
+                        "productId": 100100523,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "浓浓海苔每一粒都新鲜",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 19.8,
+                        "name": "海苔瓜子仁 120g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/11f18b160ad35c2f19faf17e4b1f970e_380x380.jpg",
+                        "productId": 100100569,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    }
+                ],
+                "title": "坚果果仁"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "欲罢不能 就是这个味儿",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 28,
+                        "name": "冻干榴莲 36g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/8316b0edef018135b622c162c1362454_380x380.jpg",
+                        "productId": 100100334,
+                        "remarks": "",
+                        "salesPrice": 15.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "酥脆香甜 全新体验",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "冻干无花果 30g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/175c58c1a1aee22f5bc2100f9d24b740_380x380.jpg",
+                        "productId": 100100750,
+                        "remarks": "",
+                        "salesPrice": 12.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "对不起 酸到你",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 16,
+                        "name": "柠檬干 66g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/35b525c9e06178e117a60409b9825886_380x380.jpg",
+                        "productId": 100100235,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "西半球广受欢迎的水果",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 60,
+                        "name": "蓝钻石蓝莓干 108g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a10c87946e1d7a4fcd4b2ef621a6a707_380x380.jpg",
+                        "productId": 100100479,
+                        "remarks": "",
+                        "salesPrice": 29.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "蜂蜜与青梅更配哦！",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 30,
+                        "name": "蜂蜜半边梅 116g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/318bc6bf188f81f09b8eeb3e1ac21edd_380x380.jpg",
+                        "productId": 100100826,
+                        "remarks": "",
+                        "salesPrice": 8.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "好吃到不能想象",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 22.5,
+                        "name": "菠萝干 106g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/e84784184f38c47c7f90112d1afc692f_380x380.jpg",
+                        "productId": 100100362,
+                        "remarks": "",
+                        "salesPrice": 10.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "望梅止渴  不是传说",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 27.5,
+                        "name": "杨梅干 106g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/207dde8a26f323ee286242815229cd11_380x380.jpg",
+                        "productId": 100100264,
+                        "remarks": "",
+                        "salesPrice": 14.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "酥脆果干 一袋不够",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 40,
+                        "name": "冻干无花果 30g*2袋",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bbd6acffcb90ff3d3a9150a064f32779_380x380.jpg",
+                        "productId": 100100762,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "提子的浓情酸甜美味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 45,
+                        "name": "红地球提子干 260g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bf3e0c920aa45baf586b595c62837e99_380x380.jpg",
+                        "productId": 100100482,
+                        "remarks": "",
+                        "salesPrice": 22.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "榴莲良品 热带国王",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 52,
+                        "name": "冻干榴莲 36gx2袋",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/08cbf5746d91614ec5ce16cb39f4de6d_380x380.jpg",
+                        "productId": 100100761,
+                        "remarks": "",
+                        "salesPrice": 29.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "酸樱桃美国人民都说好",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 60,
+                        "name": "美国酸樱桃干 108g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/b98b11abf547dd90b4e7b7cd73662f1b_380x380.jpg",
+                        "productId": 100100480,
+                        "remarks": "",
+                        "salesPrice": 26.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "“瓜果之乡”野生葡萄",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 38,
+                        "name": "黑加仑 280g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/52dacbc61df2fa895950630f14fc676e_380x380.jpg",
+                        "productId": 100100279,
+                        "remarks": "",
+                        "salesPrice": 16.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "超级水果 颗颗美味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "汤普逊提子干 260g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/7506f6399741214624e385df28765d18_380x380.jpg",
+                        "productId": 100100784,
+                        "remarks": "",
+                        "salesPrice": 12.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "穿越西半球 只为尝一口",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 26,
+                        "name": "红宝石蔓越莓干 108g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/2b472aa9a1173545d0fc5f11e379563f_380x380.jpg",
+                        "productId": 100100478,
+                        "remarks": "",
+                        "salesPrice": 11.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "春意正浓 红杏枝头闹",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 22,
+                        "name": "红杏干 106g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/9d7aa6c51fb1476372bf2f4aadafc497_380x380.jpg",
+                        "productId": 100100550,
+                        "remarks": "",
+                        "salesPrice": 10.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "新鲜采摘邂逅出色料理",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 21,
+                        "name": "桂圆肉 66g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/c8d51f622b28f85af336232dd74202f4_380x380.jpg",
+                        "productId": 100100821,
+                        "remarks": "",
+                        "salesPrice": 11.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "精选好阿胶 更懂你的枣",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "琥珀阿胶蜜枣 220g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/949f3cc7f4ed3e9291db1af171af33b0_380x380.jpg",
+                        "productId": 100100763,
+                        "remarks": "",
+                        "salesPrice": 11.9,
+                        "tags": [
+                            {
+                                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/producttag/f67d62e50908ea60e3b76e86b0a7718c.png",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    {
+                        "alias": "青青梅子 酸甜爽口",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 17.5,
+                        "name": "爽脆青梅 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/fb4fbe62f042ce01fae55f1486f6fbec_380x380.jpg",
+                        "productId": 100100789,
+                        "remarks": "",
+                        "salesPrice": 9.9,
+                        "tags": []
+                    }
+                ],
+                "title": "果干专区"
+            },
+            {
+                "floorHead": null,
+                "products": [
+                    {
+                        "alias": "葡萄界的“小而美”",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 32,
+                        "name": "无核白葡萄干 280g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/3e8dd756ddcbe5f615d88e64b884ca27_380x380.jpg",
+                        "productId": 100100528,
+                        "remarks": "",
+                        "salesPrice": 18.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "口感和营养遥遥领先",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 25,
+                        "name": "和田小枣 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0ad720216f13c796cd207f45187f3207_380x380.jpg",
+                        "productId": 100100305,
+                        "remarks": "",
+                        "salesPrice": 12.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "传说中的“百果之王”",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 58,
+                        "name": "脆动枣 180g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a97de6626dfc787184906e53391bdf53_380x380.jpg",
+                        "productId": 100100268,
+                        "remarks": "",
+                        "salesPrice": 19.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "新疆“玛瑙”美又好吃",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 27,
+                        "name": "玫瑰红葡萄干280g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/a7f5df243d75619f9b31468f8e3f1068_380x380.jpg",
+                        "productId": 100100236,
+                        "remarks": "",
+                        "salesPrice": 11.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "葡萄界典型的美人胚子",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 62,
+                        "name": "绿香妃葡萄干 280g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/bbe638424f21d89807a6cddc34a476cd_380x380.jpg",
+                        "productId": 100100600,
+                        "remarks": "",
+                        "salesPrice": 33.9,
+                        "tags": []
+                    },
+                    {
+                        "alias": "提前品尝夏天的果味",
+                        "brand": "默认三只松鼠",
+                        "marketPrice": 60,
+                        "name": "红香妃葡萄干 280g",
+                        "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/product/0346e1ef84918ce7e0eadaba0b0cac33_380x380.jpg",
+                        "productId": 100100629,
+                        "remarks": "",
+                        "salesPrice": 26.9,
+                        "tags": []
+                    }
+                ],
+                "title": "新疆正品"
+            }
+        ],
+        "banner": {
+            "name": "通栏",
+            "param": null,
+            "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/199b81727a1d2f11cba23b46158288e5.jpg",
+            "type": 1
+        }
+    },
+    "stateCode": 0
+}
