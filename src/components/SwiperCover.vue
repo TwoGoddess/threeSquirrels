@@ -1,5 +1,5 @@
 <template>  
-    <swiper :options="swiperOption"  ref="mySwiper">  
+    <swiper :options="swiperOption"  ref="mySwiper" id="SwiperCover">  
         <!-- 这部分放你要渲染的那些内容 -->  
         <swiper-slide>
             <img src="http://pic10.cdn.3songshu.com:81//assets/upload/adv/49da2bebe0471772283d199207ee9757.jpg"/>
@@ -38,12 +38,14 @@
     }  
 </script>  
 <style lang="less">
-    .swiper-container{
-        height: 12rem;
-        width: 100%;
-        img{
-            width:100%;
-            height: 12rem;
+    #SwiperCover{
+        .swiper-container{
+            height: 10rem;
+            width: 100%;
+            img{
+                width:100%;
+                height: 10rem;
+            }
         }
     }
 </style>  
