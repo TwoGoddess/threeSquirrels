@@ -2,14 +2,14 @@
 	<div>
 		<div class="xianshi-qianggou">
 			<div class="xianshi-qianggou-box">
-				<div class="xianshi-qianggou-box-type" v-for="item in type">
+				<div class="xianshi-qianggou-box-type" v-for="(item, index) in differData.middleAdvs" :key="index">
 					<img v-lazy="item.pic" alt="">
 					<p>{{item.name}}</p>
 				</div>
 			</div>
 		</div>
 		<div class="jinri-baokuan">
-			<div class="jinri-bokuan-box-type" v-for="item in jiriBaokuan">
+			<div class="jinri-bokuan-box-type" v-for="(item, index) in differData.recommendAdvs" :key="index">
 				<img v-lazy="item.pic" alt="">
 			</div>
 		</div>
@@ -27,7 +27,7 @@
 				<div class="time">01:22:22</div>
 			</div>
 			<swiper :options="swiperSmall">
-	            <swiper-slide id="swiperSmall-slide" v-for="slide in swiperToSmall" :key="slide.id">
+	            <swiper-slide id="swiperSmall-slide" v-for="slide in differData.flashSale.products" :key="slide.id">
 	                <img v-lazy="slide.pic" id="swiperSmall">
 		            <div class="textInfo">
 			            <p>{{slide.name}}</p>
@@ -38,14 +38,13 @@
 		            </div>
 			        <span class="btn" @click="addGoods(item)"></span>
 	            </swiper-slide>
-	            <!-- <div class="swiper-pagination" slot="pagination"></div> -->
 	        </swiper>
 		</div>
 		<div class="thisWeekBest">
 			<div class="tejia-zhuanchang">
 				<div class="tejia-zhuanchang-text"><span></span>本周卖得最好的10款零食</div>
 			</div>
-			<div class="thisWeekLists" v-for="item in promotions">
+			<div class="thisWeekLists" v-for="(item, index) in differData.promotions" :key="index">
 				<img v-lazy="item.pic" alt="">
 			</div>
 		</div>
@@ -53,7 +52,7 @@
 			<div class="tejia-zhuanchang">
 				<div class="tejia-zhuanchang-text"><span></span>编辑精选<div id="more">更多&nbsp;&gt;</div></div>
 			</div>
-			<div class="bianji-jingxuan-box" v-for="item in articles">
+			<div class="bianji-jingxuan-box" v-for="(item, index) in differData.articles" :key="index">
 				<div class="bianji-jingxuanImg">
 					<img v-lazy="item.pic" alt="">
 				</div>
@@ -71,7 +70,7 @@
 	import SwiperCover from './SwiperCover'
 
 	export default{
-		props:['type','jiriBaokuan','swiperToSmall','promotions','articles'],
+		props:['type','jiriBaokuan','swiperToSmall','promotions','differData','differData'],
 		data(){
 			return{
 				swiperOption: {
@@ -275,6 +274,9 @@
 		line-height: 1.2em;
     	font-weight: 700;
     	font-size: 17px;
+	}
+	div .swiper-container{
+		width:auto;
 	}
 	#swiperSmall-slide{
 		height: 9.5rem;

@@ -1,29 +1,16 @@
 <template>
     <div>
-		<swiper :options="swiperOption">
-            <swiper-slide v-for="slide in swiperSlides" :key="slide.id">
-                <img v-lazy="slide.pic">
-            </swiper-slide>
-            <div class="swiper-pagination" slot="pagination"></div>
-        </swiper>
-<<<<<<< HEAD
-        
-		<my-nav :list = 'lists'></my-nav>
-
-		<differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
-=======
 		<home-swiper :SwiperImg="SwiperImg"></home-swiper>
-		<my-nav :list = 'lists' @getId="getId"></my-nav>
-		 <differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
->>>>>>> 5878d3b6325c75cf1d6780d80898c4d2d8c45ec0
-			
-		</differ-list>  
-		<floor-list v-for="(items, index) in goodList" :goodList = 'items' :key='index'></floor-list>
+		<my-nav :list= 'navList' @getId="getId"></my-nav>
+		<differ-list  v-if="differData" :differData="differData">
+		</differ-list>
+		<floor-list :goodList = 'goodList'>
+		</floor-list>
 	</div>
 </template>
 
 <script>
-	import { swiper, swiperSlide } from 'vue-awesome-swiper'
+	
 	import axios from 'axios'
 	import myNav from '../../components/Nav'
 	import floorList from './GoodsList'
@@ -32,76 +19,35 @@
 	export default{
 		data () {
 			return {
-				lists: [],
-				type: [],
-				jiriBaokuan: [],
-				wurouBuhuan: [],
-				promotions: [],
-				articles: [],
-				floorsLeft: [],
-				floorsRight: [],
-            	swiperOption: {
-	                autoplay: 3500,
-	                setWrapperSize :true,
-	                pagination : '.swiper-pagination',
-	                paginationClickable :true,
-	                mousewheelControl : true,
-	                observeParents:true,
-            	},
-            	swiperSlides: [1, 2, 3, 4, 5],
-            	// swiperSmall: {
-	            //     autoplay: 3500,
-	            //     setWrapperSize :true,
-	            //     pagination : '.swiper-pagination',
-	            //     paginationClickable :true,
-	            //     mousewheelControl : true,
-	            //     observeParents:true,
-            	// },
-            	swiperToSmall: [1, 2, 3, 4],
-				goodList:{},
-				SwiperImg:{}
+				goodList: {},
+				SwiperImg: {},
+				navList: {},
+				differData: {}
 			}
 		},
 		methods: {
-			getData: function(){
-				var $this = this;
-				this.axios.get('../../../static/data/data.json').then(function (res) {
-					// console.log(res.data.data);
-					$this.lists = res.data.data.channels;
-					$this.type = res.data.data.recommendChannel.middleAdvs;
-					$this.jiriBaokuan = res.data.data.recommendChannel.recommendAdvs;
-					$this.swiperSlides = res.data.data.carousel;
-					$this.wurouBuhuan = res.data.data.recommendChannel.recommendActivitys.items;
-					$this.swiperToSmall = res.data.data.recommendChannel.flashSale.products;
-					$this.promotions = res.data.data.recommendChannel.promotions;
-					$this.articles = res.data.data.recommendChannel.articles;
-					$this.floorsLeft = res.data.data.recommendChannel.floors[0].products.slice(0, 10);
-					$this.floorsRight = res.data.data.recommendChannel.floors[0].products.slice(10, 20);
-				})
-			},
 			getNewData(){
 				axios.get('../../static/data/home/home.json')
 				.then((res)=>{
-					console.log(res.data.data.carousel)
-					this.SwiperImg = res.data.data.carousel
+					this.SwiperImg = res.data.data.carousel;
+					this.navList = res.data.data.channels;
 				})
 			},
 			getId:function(id){
 				console.log(id);
 				axios.get('../../static/data/home/'+id+'.json')
 				.then((res)=>{
-					this.goodList = res.data.data.floors;
+					this.goodList = res.data.data;
+					this.differData = res.data.data.recommendChannel;
+					console.log(res.data.data.recommendChannel)
 				})
 			}
 		},
 		created () {
-			this.getData();
 			this.getNewData();
 			this.getId(10003);
 		},
 		components:{
-	        swiper,
-			swiperSlide,
 			myNav,
 			floorList,
 			differList,
@@ -111,20 +57,6 @@
 </script>
 
 <style>
-	html{
-		height: 100%;
-		background-color: #f9f9f9;
-		overflow-y: scroll;
-	}
-	.swiper-slide{
-		display: flex;
-		width: 100%;
-		height: 16.666667rem;
-	}
-	.swiper-slide img{
-		width: 100%;
-		height: 16.666667rem;
-	}
 	img{
 	  -webkit-transition: all 2s;
 	  -o-transition: all 2s;

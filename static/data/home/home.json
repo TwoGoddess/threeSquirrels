@@ -40,6 +40,56 @@
                 "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/c2b5c59c43a0223c31000f616810c6be.jpg",
                 "type": 4
             }
+        ],
+        "channels": [
+            {
+                "id": 10003,
+                "name": "推荐",
+                "pic": "",
+                "position": 0
+            },
+            {
+                "id": 10043,
+                "name": "坚果/果干",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/dcbf5ff0a373baf8adc80df2c7ddba73.gif",
+                "position": 3
+            },
+            {
+                "id": 10102,
+                "name": "量贩组合",
+                "pic": "",
+                "position": 0
+            },
+            {
+                "id": 10046,
+                "name": "肉脯/海鲜",
+                "pic": "",
+                "position": 0
+            },
+            {
+                "id": 10052,
+                "name": "休闲零食",
+                "pic": "",
+                "position": 0
+            },
+            {
+                "id": 10055,
+                "name": "潮礼",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/30732e51de54effcaad8a27e0a7f6a9d.gif",
+                "position": 3
+            },
+            {
+                "id": 10058,
+                "name": "茶饮",
+                "pic": "",
+                "position": 0
+            },
+            {
+                "id": 10061,
+                "name": "周边",
+                "pic": "http://pic10.cdn.3songshu.com:81//assets/upload/adv/6762bbfa218313c245ffa4eb4b16e6dc.gif",
+                "position": 3
+            }
         ]
     },
     "stateCode": 0
