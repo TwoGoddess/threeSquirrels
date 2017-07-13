@@ -6,7 +6,9 @@
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
+        
 		<my-nav :list = 'lists'></my-nav>
+
 		<differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
 			
 		</differ-list>
