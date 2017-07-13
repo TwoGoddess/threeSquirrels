@@ -3,14 +3,14 @@
 		<div class="xianshi-qianggou">
 			<div class="xianshi-qianggou-box">
 				<div class="xianshi-qianggou-box-type" v-for="item in type">
-					<img :src="item.pic" alt="">
+					<img v-lazy="item.pic" alt="">
 					<p>{{item.name}}</p>
 				</div>
 			</div>
 		</div>
 		<div class="jinri-baokuan">
 			<div class="jinri-bokuan-box-type" v-for="item in jiriBaokuan">
-				<img :src="item.pic" alt="">
+				<img v-lazy="item.pic" alt="">
 			</div>
 		</div>
 		<swiper-cover></swiper-cover>
@@ -28,7 +28,7 @@
 			</div>
 			<swiper :options="swiperSmall">
 	            <swiper-slide id="swiperSmall-slide" v-for="slide in swiperToSmall" :key="slide.id">
-	                <img :src="slide.pic" id="swiperSmall">
+	                <img v-lazy="slide.pic" id="swiperSmall">
 		            <div class="textInfo">
 			            <p>{{slide.name}}</p>
 			            <p id="salesPrice">
@@ -36,6 +36,7 @@
 			            	<span id="marketPrice-color">{{slide.marketPrice}}</span>
 			            </p>
 		            </div>
+			        <span class="btn" @click="addGoods(item)"></span>
 	            </swiper-slide>
 	            <!-- <div class="swiper-pagination" slot="pagination"></div> -->
 	        </swiper>
@@ -45,7 +46,7 @@
 				<div class="tejia-zhuanchang-text"><span></span>本周卖得最好的10款零食</div>
 			</div>
 			<div class="thisWeekLists" v-for="item in promotions">
-				<img :src="item.pic" alt="">
+				<img v-lazy="item.pic" alt="">
 			</div>
 		</div>
 		<div class="bianji-jingxuan">
@@ -54,7 +55,7 @@
 			</div>
 			<div class="bianji-jingxuan-box" v-for="item in articles">
 				<div class="bianji-jingxuanImg">
-					<img :src="item.pic" alt="">
+					<img v-lazy="item.pic" alt="">
 				</div>
 				<div class="bianji-jingxuanInfo">
 					<span class="bianji-jingxuanInfoLeft">{{item.title}}</span>
@@ -277,8 +278,15 @@
 	}
 	#swiperSmall-slide{
 		height: 9.5rem;
-		background: url(../../static/img/greenCart.png) no-repeat 8rem 7rem; 
+		background: url(../../static/img/greenCart.png) no-repeat 9.2rem 7.2rem;
 		background-size: 2.0rem auto;
+	}
+	.btn{
+		width: 3.0rem;
+		height: 3.0rem;
+		position: absolute;
+		bottom: 0;
+		right: 0;
 	}
 	#swiperSmall{
 		display: block;

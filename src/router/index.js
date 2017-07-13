@@ -32,8 +32,9 @@ const routes = [
         component: Cart
     },
     {
-        path: '/mine',
-        component: Mine
+        path: '/Mine',
+        name: ' Mine',
+        component: Mine,
     },
     {
         path: '/404',

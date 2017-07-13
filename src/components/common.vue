@@ -8,30 +8,30 @@
 				<div class="floorlists-boxLeft">
 					<div class="floorlists-boxLeft-goods" v-for="item in floorsLeft">
 						<div class="floorlists-boxLeft-goodsImg">
-							<img :src="item.pic" alt="">
-							<img :src="item.tags[0].pic" alt="" id="huodongLeft">
+							<img v-lazy="item.pic" alt="">
+							<img v-lazy="item.tags[0].pic" alt="" id="huodongLeft">
 						</div>
 						<p class="floorlists-boxLeft-goods-p1">{{item.alias}}</p>
 						<p class="floorlists-boxLeft-goods-p2">{{item.name}}</p>
 						<p class="floorlists-boxLeft-goods-p3">
 							<span class="floorlists-boxLeft-goods-p3-span1">{{item.marketPrice}}</span>
 							<span class="floorlists-boxLeft-goods-p3-span2">{{item.salesPrice}}</span>
-							<span class="floorlists-boxLeft-goods-p3-span3"></span>
+							<span class="floorlists-boxLeft-goods-p3-span3" @click="addGoods(item)"></span>
 						</p>
 					</div>
 				</div>
 				<div class="floorlists-boxRight">
 					<div class="floorlists-boxRight-goods" v-for="item in floorsRight">
 						<div class="floorlists-boxRight-goodsImg">
-							<img :src="item.pic" alt="">
-							<img :src="item.tags[0].pic" alt="" id="huodongRight">
+							<img v-lazy="item.pic" alt="">
+							<img v-lazy="item.tags[0].pic" alt="" id="huodongRight">
 						</div>
 						<p class="floorlists-boxRight-goods-p1">{{item.alias}}</p>
 						<p class="floorlists-boxRight-goods-p2">{{item.name}}</p>
 						<p class="floorlists-boxRight-goods-p3">
 							<span class="floorlists-boxRight-goods-p3-span1">{{item.marketPrice}}</span>
 							<span class="floorlists-boxRight-goods-p3-span2">{{item.salesPrice}}</span>
-							<span class="floorlists-boxRight-goods-p3-span3"></span>
+							<span class="floorlists-boxRight-goods-p3-span3" @click="addGoods(item)"></span>
 						</p>
 					</div>
 				</div>
@@ -120,13 +120,14 @@
 	.floorlists-boxLeft-goods-p3-span3,.floorlists-boxRight-goods-p3-span3{
 		background: url(../../static/img/greenCart.png) no-repeat; 
 		background-size: 2.0rem auto;
+		background-position: center center;
 		position: absolute;
-	    right: 0.666667rem;
-	    top: 50%;
+	    right: 0;
+	    top: 20%;
 	    margin-top: -1.0rem;
 	    padding: 0;
-	    width: 2.0rem;
-	    height: 2.0rem;
+	    width: 3.0rem;
+	    height: 3.0rem;
 	    min-width: 2.0rem;
 	    min-height: 2.0rem;
 	    border: none;

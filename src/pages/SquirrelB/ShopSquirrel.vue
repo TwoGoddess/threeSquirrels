@@ -1,7 +1,7 @@
 <template>
     <div class="Shop_Squirrel clear">
         <div class="Squirrel_title">
-            <img :src="floors.floorHead.pic" :alt="floors.floorHead.name"/>
+            <img v-lazy="floors.floorHead.pic" :alt="floors.floorHead.name"/>
         </div>
         <div class="Squirrel_goods">
             <goods v-for='(item, index) in goods' :goods="item" :key="index"></goods>
