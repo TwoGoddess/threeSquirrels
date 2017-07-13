@@ -26,6 +26,17 @@ export default {
         console.log(this.floors.products)
     }
 }
+/* 
+reduce
+some
+every
+find
+findIndex
+filter
+forEach
+mapActions
+sum
+*/
 </script>
 
 <style lang="less">

@@ -57,7 +57,7 @@ home{
                 name,
                 pic: 图片
             },
-             articles{//编辑精选
+            articles{//编辑精选
                 id,
                 title: 内容标题,
                 content: 详细介绍,
