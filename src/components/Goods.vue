@@ -19,7 +19,6 @@ export default {
     }
     .grey{
         color: #999;
-        font-size: 1rem;
     }
     .goods_content{
         box-sizing:border-box;

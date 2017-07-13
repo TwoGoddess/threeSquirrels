@@ -6,11 +6,19 @@
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
+<<<<<<< HEAD
+        
 		<my-nav :list = 'lists'></my-nav>
+
 		<differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
+=======
+		<home-swiper :SwiperImg="SwiperImg"></home-swiper>
+		<my-nav :list = 'lists' @getId="getId"></my-nav>
+		 <differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
+>>>>>>> 5878d3b6325c75cf1d6780d80898c4d2d8c45ec0
 			
-		</differ-list>
-		<floor-list :floorsLeft = 'floorsLeft' :floorsRight = 'floorsRight'></floor-list>
+		</differ-list>  
+		<floor-list v-for="(items, index) in goodList" :goodList = 'items' :key='index'></floor-list>
 	</div>
 </template>
 
@@ -18,7 +26,8 @@
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
 	import axios from 'axios'
 	import myNav from '../../components/Nav'
-	import floorList from '../../components/common'
+	import floorList from './GoodsList'
+	import HomeSwiper from '../../components/HomeSwiper'
 	import differList from '../../components/differ'
 	export default{
 		data () {
@@ -40,22 +49,24 @@
 	                observeParents:true,
             	},
             	swiperSlides: [1, 2, 3, 4, 5],
-            	swiperSmall: {
-	                autoplay: 3500,
-	                setWrapperSize :true,
-	                pagination : '.swiper-pagination',
-	                paginationClickable :true,
-	                mousewheelControl : true,
-	                observeParents:true,
-            	},
-            	swiperToSmall: [1, 2, 3, 4]			
+            	// swiperSmall: {
+	            //     autoplay: 3500,
+	            //     setWrapperSize :true,
+	            //     pagination : '.swiper-pagination',
+	            //     paginationClickable :true,
+	            //     mousewheelControl : true,
+	            //     observeParents:true,
+            	// },
+            	swiperToSmall: [1, 2, 3, 4],
+				goodList:{},
+				SwiperImg:{}
 			}
 		},
 		methods: {
 			getData: function(){
 				var $this = this;
 				this.axios.get('../../../static/data/data.json').then(function (res) {
-					console.log(res.data.data);
+					// console.log(res.data.data);
 					$this.lists = res.data.data.channels;
 					$this.type = res.data.data.recommendChannel.middleAdvs;
 					$this.jiriBaokuan = res.data.data.recommendChannel.recommendAdvs;
@@ -67,17 +78,34 @@
 					$this.floorsLeft = res.data.data.recommendChannel.floors[0].products.slice(0, 10);
 					$this.floorsRight = res.data.data.recommendChannel.floors[0].products.slice(10, 20);
 				})
+			},
+			getNewData(){
+				axios.get('../../static/data/home/home.json')
+				.then((res)=>{
+					console.log(res.data.data.carousel)
+					this.SwiperImg = res.data.data.carousel
+				})
+			},
+			getId:function(id){
+				console.log(id);
+				axios.get('../../static/data/home/'+id+'.json')
+				.then((res)=>{
+					this.goodList = res.data.data.floors;
+				})
 			}
 		},
 		created () {
 			this.getData();
+			this.getNewData();
+			this.getId(10003);
 		},
 		components:{
 	        swiper,
 			swiperSlide,
 			myNav,
 			floorList,
-			differList
+			differList,
+			HomeSwiper
     	}
 	}
 </script>

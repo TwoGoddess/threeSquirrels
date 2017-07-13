@@ -2,7 +2,7 @@
 	<div>
 		<div class = "home-nav">
 	        <ul class = 'nav-ul'>
-	        	<li v-for='(item,index) in list' @click ='changeIndex(index,item.id)' :class="{'hot':index==1 ,'new':index==4,'new1':index==7}" class = "nav-li" >
+	        	<li v-for='(item,index) in list' :key="index" :id="item.id" @click ='changeIndex(index,item.id)' :class="{'hot':index==1 ,'new':index==4,'new1':index==7}" class = "nav-li" >
 	        		<span  :class="{'active':currtIndex == index}">{{item.name}}</span>
 	        	</li>
 	        </ul>	
@@ -21,12 +21,11 @@ export default {
 	methods:{
 		changeIndex:function(itemIndex,itemid){
 			this.currtIndex = itemIndex;
-			console.log(itemid)
 			this.getData(itemid);
+			this.$emit('getId',[itemid]);
 		},
 		getData:function(id){
 			this.axios.get('../../static/data/home/'+id+'.json').then(function(res){
-				console.log(res);
 			})
 		}
 	},
