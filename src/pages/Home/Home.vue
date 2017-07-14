@@ -1,16 +1,16 @@
 <template>
     <div>
-		<swiper :options="swiperOption">
+		<!-- <swiper :options="swiperOption">
             <swiper-slide v-for="slide in swiperSlides" :key="slide.id">
                 <img :src="slide.pic">
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
-		<home-swiper :SwiperImg="SwiperImg"></home-swiper>
+		<home-swiper :SwiperImg="SwiperImg"></home-swiper> -->
 		<my-nav :list = 'lists' @getId="getId"></my-nav>
-		 <differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
+		 <!-- <differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
 			
-		</differ-list>  
+		</differ-list>   -->
 		<floor-list v-for="(items, index) in goodList" :goodList = 'items' :key='index'></floor-list>
 	</div>
 </template>
