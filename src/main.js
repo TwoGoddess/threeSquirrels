@@ -18,12 +18,12 @@ rem(document,window)
 // flexible(window)
 
 //懒加载图片插件
-import VueLazyLoad from 'vue-lazy-load'
-Vue.use(VueLazyLoad)
+import VueLazyLoad from 'vue-lazyload'
+Vue.use(VueLazyLoad);
 Vue.use(VueLazyLoad, {
 	preload: 1.3,
-	error: '',
-	loading: ''
+	error: 'assets/img/cart.png',
+	loading: 'assets/img/cart.png'
 })
 
 // vuex
