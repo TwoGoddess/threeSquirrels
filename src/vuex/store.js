@@ -10,7 +10,7 @@ const state = {
 const mutations = {
 	addCart:function(state,item){
 		//根据id查找
-		var _item = state.cartList.find( c=>c.id ===item.id)
+		var _item = state.cartList.find( c=>c.productId === item.productId)
 		if(_item){
 			_item.count ++;
 		}else{
@@ -28,7 +28,7 @@ const actions = {
 
 const getters = {
 	getList:function(){
-		return state.cartList
+		return state.cartList;
 	}
 }
 

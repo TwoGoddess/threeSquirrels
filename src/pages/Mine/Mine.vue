@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
 	<div class="mine">
 		<div class="card">
 			<div class="user-bg"></div>
@@ -74,29 +73,14 @@
 </template>
 
 <script>
-	export default{
-		
-	}
-=======
-    <div>
-        <!-- <description></description> -->
-        <goods-list></goods-list>
-    </div>
-</template>
-
-<script>
-// import Description from '../../components/Description'
-import GoodsList from '../Home/GoodsList'
 
 
 export default {
     name: 'mine',
     components: {
-        // Description
-        GoodsList
+
     }
 }
->>>>>>> 5878d3b6325c75cf1d6780d80898c4d2d8c45ec0
 </script>
 
 <style>

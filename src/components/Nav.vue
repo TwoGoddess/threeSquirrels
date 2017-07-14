@@ -21,16 +21,8 @@ export default {
 	methods:{
 		changeIndex:function(itemIndex,itemid){
 			this.currtIndex = itemIndex;
-			this.getData(itemid);
 			this.$emit('getId',[itemid]);
 		},
-		getData:function(id){
-			this.axios.get('../../static/data/home/'+id+'.json').then(function(res){
-			})
-		}
-	},
-	created(){
-		this.getData(this.id);
 	}
 }
 </script>

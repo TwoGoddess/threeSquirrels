@@ -4,21 +4,21 @@
     		<div class='cart-head' @click = "back()"></div>
     		<div class = 'cart-middle'>购物车</div>
     		<div class = 'cart-right'>编辑</div>
+    		<div class = "full">
+    			<span class="full-left">满49元免运费，还差6元</span><span class = "full-right">去凑单</span>
+    		</div>
     	</header>
-    	<div class = "full">
-    		<span class="full-left">满49元免运费，还差6元</span><span class = "full-right">去凑单</span>
-    	</div>
     	<ul class='cart-ul' >
-    		<li class = 'cart-li'>
+    		<li class = 'cart-li'  v-for='item in cartList'>
     			<span class = 'check'></span>
-    			<img src="../../assets/img/cart.jpg" alt="" class = 'cart-img'>			
+    			<img :src="item.pic" alt="" class = 'cart-img'>			
 				<span class = 'cart-text'>
-					<p>麻薯组合装</p>
-					<p class = "cart-price">21.90</p>
+					<p>{{item.name}}</p>
+					<p class = "cart-price">{{item.salesPrice}}</p>
 					<p class = "cart-btn">
-						<span class="cart-del">-</span>
-						<span class="cart-mount">1</span>
-						<span class="cart-add">+</span>
+						<span class="cart-del" @click = 'del'>-</span>
+						<span class="cart-mount">{{item.count}}</span>
+						<span class="cart-add" @click = 'add'>+</span>
 					</p>
 				</span>
 				<span></span>						
@@ -43,8 +43,18 @@ export default {
 	methods:{
 		back:function(){
 			history.back();
+		},
+		del:function(){
+			
 		}
-	}
+
+	},
+	computed :{
+		cartList:function(){
+			console.log(this.$store.getters.getList);
+			return this.$store.getters.getList;
+		}
+	},
 }
 </script>
 
@@ -55,8 +65,13 @@ export default {
 }
 header{
 	display: flex;
-	height: 3.666667rem;
+	height:5.916667rem;
 	background-color: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top:0;
+	z-index: 999;
 }
 .cart-head{
 	height: 3.666667rem;
@@ -76,10 +91,16 @@ header{
 	top:1.2rem;
 }
 .full{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	z-index: 999;
 	height: 2.166667rem;
 	line-height: 2.166667rem;
 	background-color: #F9C0CB;
 	padding: 0 0 0 0.833333rem;
+	margin-top: 3.666667rem;
 }
 .full-left{
 	color:white;
@@ -93,6 +114,8 @@ header{
 .cart-li{
 	height:6.666667rem;
 	background-color: #fff;
+	margin-bottom:0.416667rem;
+	position: relative;
 }
 .check{
 	float: left;
@@ -103,20 +126,21 @@ header{
     margin-top: -0.416667rem;
     vertical-align:top;
     margin-top:2.5rem; 
-    margin-left: 0.5rem;
+    margin-left: .5rem;
 }
 .cart-img{
-	float: left;
+	position: absolute;
+	left: 3rem;
+	top:0.8rem;
  	width:5.0rem;
  	height:5.0rem;
- 	margin-top: 0.8rem;
- 	margin-left: 1rem;
  	border:1px solid #DDDDDD;
 	border-radius:0.333333rem;
 }
 .cart-text{
-	float:left;
-	margin-left: 1rem;
+	position: absolute;
+	left: 9rem;
+	top:0;
 	height:6.666667rem; 
 	line-height: 1.67rem;
 	width:12.5rem;
@@ -155,8 +179,9 @@ header{
 	width: 100%;
 	height: 3.75rem;
 	background-color:#fff;
-	position: absolute;
+	position:fixed;
 	left: 0;
+	right:0;
 	bottom:4.166667rem;
 	border-bottom: 1px solid #E4E4E4;
 	border-top:1px solid #DCDCDC;

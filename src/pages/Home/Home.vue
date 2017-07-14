@@ -6,16 +6,10 @@
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
-<<<<<<< HEAD
-        
-		<my-nav :list = 'lists'></my-nav>
-
-		<differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
-=======
 		<home-swiper :SwiperImg="SwiperImg"></home-swiper>
 		<my-nav :list = 'lists' @getId="getId"></my-nav>
 		 <differ-list :type='type' :jiriBaokuan='jiriBaokuan' :wurouBuhuan ='wurouBuhuan' :promotions ='promotions' :articles ='articles' :swiperToSmall='swiperToSmall'>
->>>>>>> 5878d3b6325c75cf1d6780d80898c4d2d8c45ec0
+
 			
 		</differ-list>  
 		<floor-list v-for="(items, index) in goodList" :goodList = 'items' :key='index'></floor-list>
