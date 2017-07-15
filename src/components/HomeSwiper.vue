@@ -26,6 +26,7 @@ export default {
                 centeredSlides: true,  
                 paginationClickable: true,  
                 spaceBetween: 30,  
+                autoplay:3000,
                 onSlideChangeEnd: swiper => {  
                     //这个位置放swiper的回调方法  
                     this.page = swiper.realIndex+1;  

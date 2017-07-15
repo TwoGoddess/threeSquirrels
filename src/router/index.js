@@ -10,6 +10,8 @@ import Cart from '../pages/Cart/Cart'
 import Mine from '../pages/Mine/Mine'
 import FError from '../components/404'
 
+import List from '../pages/Classify/child/List'
+
 const routes = [
     {
         path: '',
@@ -41,8 +43,8 @@ const routes = [
         component: FError
     },
     {
-        path: '*',
-        redirect: '/404'
+        path: '/List/:id',
+        component: List    
     }
 ]
 export default new VueRouter({

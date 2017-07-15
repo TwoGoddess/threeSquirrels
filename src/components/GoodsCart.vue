@@ -12,13 +12,20 @@
                 {{ goods.marketPrice }}
             </s>
         </p>
-        <img class="goods_cart" src="../../static/img/greenCart.png" />
+        <img class="goods_cart" src="../../static/img/greenCart.png" @click = 'addCart(goods)' />
     </div>
 </template>
 
 <script>
 export default{
-    props:['goods']
+    props:['goods'],
+    methods:{
+        addCart:function(goods){
+            //console.log(goods);
+            this.$store.dispatch('addCart',goods);
+
+        }
+    }
 }
 </script>
 
