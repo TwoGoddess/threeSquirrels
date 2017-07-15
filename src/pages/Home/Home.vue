@@ -6,6 +6,7 @@
 		</differ-list>
 		<floor-list :goodList = 'goodList'>
 		</floor-list>
+	</div>
 </template>
 
 <script>
