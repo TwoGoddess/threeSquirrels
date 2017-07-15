@@ -11,22 +11,12 @@
        		<div class="classify-content">
 	       		<ul class="classify-ul">
 	       			<li v-for="clist in classifyLists">
-
-<<<<<<< HEAD
-	       				<router-link :to="'/List/'+clist.id"> 
-	       					<img :src="clist.pic">
-=======
-	       				<router-link :to="'/classify/list/'+clist.id">
+	       				<router-link :to="'/list/'+clist.id">
 	       					<img v-lazy="clist.pic">
->>>>>>> 7e9754e6391bf4bb69d181bc2b33ba77b2de8789
 	       				</router-link>   
 
 	       			</li>
 	       		</ul>
-<<<<<<< HEAD
-=======
-	       		<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
->>>>>>> 7e9754e6391bf4bb69d181bc2b33ba77b2de8789
 			</div>
 
 			<!-- 跳转在线客服按钮 -->
