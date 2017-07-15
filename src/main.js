@@ -18,7 +18,7 @@ rem(document,window)
 // flexible(window)
 
 //懒加载图片插件
-import VueLazyLoad from 'vue-lazy-load'
+import VueLazyLoad from 'vue-lazyload'
 Vue.use(VueLazyLoad)
 Vue.use(VueLazyLoad, {
 	preload: 1.3,

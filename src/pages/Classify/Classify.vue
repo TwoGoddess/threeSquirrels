@@ -1,5 +1,8 @@
 <template>
     <div>
+			
+			<!-- <router-view></router-view> -->
+
        		<!-- 分类标题 -->
        		<div class="classify-titlebox">
        			<div class="classify-title">分类</div>
@@ -9,13 +12,12 @@
 	       		<ul class="classify-ul">
 	       			<li v-for="clist in classifyLists">
 
-	       				<router-link :to="'/classify/list/'+clist.id">
+	       				<router-link :to="'/List/'+clist.id"> 
 	       					<img :src="clist.pic">
 	       				</router-link>   
 
 	       			</li>
 	       		</ul>
-	       		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 			</div>
 
 			<!-- 跳转在线客服按钮 -->
@@ -23,7 +25,6 @@
 				<img src="http://m.3songshu.com/resources/images/icon-chat@2x.18defe06.png">
 			</div>
 
-			<!-- <router-view></router-view> -->
        		
     </div>
 </template>
