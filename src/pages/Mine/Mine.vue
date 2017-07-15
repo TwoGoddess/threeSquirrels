@@ -400,6 +400,6 @@ export default {
 	    height: 100%;
 	}
 	.floorText{
-		margin-bottom: 4.383333rem;
+		margin-bottom: 0.5rem;
 	}
 </style>

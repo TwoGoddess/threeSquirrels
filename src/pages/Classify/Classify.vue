@@ -10,12 +10,12 @@
 	       			<li v-for="clist in classifyLists">
 
 	       				<router-link :to="'/classify/list/'+clist.id">
-	       					<img :src="clist.pic">
+	       					<img v-lazy="clist.pic">
 	       				</router-link>   
 
 	       			</li>
 	       		</ul>
-	       		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	       		<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 			</div>
 
 			<!-- 跳转在线客服按钮 -->
