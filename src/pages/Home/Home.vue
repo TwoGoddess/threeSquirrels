@@ -6,10 +6,8 @@
 		</differ-list>
 		<floor-list :goodList = 'goodList'>
 		</floor-list>
-	</div>
 </template>
 <script>
-	
 	import axios from 'axios'
 	import myNav from '../../components/Nav'
 	import floorList from './GoodsList'

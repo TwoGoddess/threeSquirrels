@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	// let不存在变量提升
+	// 局部作用域
+	/*
+		const 常量(一般都为大写)
+		 定义一个对象，里面的变量可以改变值
+		const obj = {
+			a:100
+		}
+		obj.a = 101;
+		console.log(obj.a);
+	*/
+	/*
+		...将一个数组转化为逗号分隔的参数序列
+		var a = [1,2,3]
+		console.log(...[123])  //1,2,3
+	*/
+	/*
+		console.log(div) //伪数组
+		*****************
+		将伪数组转化为数组
+		1.var c = [...div]
+		2.Array.prototype.slice.apply(divs)
+
+
+		替换apply方法
+		call
+		bind
+
+	*/
+		// function add(x,y,z){
+		// 	return x*y*z;
+		// }
+		// let numbers = [2,3,4];
+		//  console.log(add(...numbers));
+
+
+	/*	var a = "<div>scb</div>"
+		b = ['div','abc</div>']
+		c = '<div>abc\
+					</div>'
+		
+
+		e = `<div>
+				abc
+			</div>`
+
+		console.log(b.join(''))*/
+
+
+		// var f = v=>v;
+		// 箭头前面是参数，后面是函数体
+		// this 定义时所在的对象，而不是使用时的对象，不会变，一定的
+
+
+/*		var f = a => {return a}
+		var f1 = (a,b) => {return {'a':a, 'b':b}}
+		console.log(f1(1,2))*/
+
+
+
+		/*
+			var obj = {a:1, b:2, c:3};
+			var obj1 = {d:4, e:5};
+			var b = Object.assign({}, obj, ibj1);
+			console.log(b);
+		*/
+
+		class Point{
+			constructor(x,y){
+				this.x = x;
+				this.y = y
+			}
+			getPoint(){
+				return {
+					x: this.x,
+					y: this.y
+				}
+			}
+			getArea(a){
+				return this.x*this.y+a;
+			}
+		}
+
+
+		class Demo extends Point{
+			constructor(x,y,color){
+				super(x,y)
+				this.color = color;
+			}
+			getColor(){
+				return this.color;
+			}
+		}
+
+		var p = new Point(1,2)
+		console.log(p.getPoint())
+		console.log(p.getPoint())
+		console.log(p.getArea(100))
+
+		var d = new Demo(3,4,'red')
+
+
+
+
+
+
+
+
+
+</script>
+</html>
+
+
+
+
+

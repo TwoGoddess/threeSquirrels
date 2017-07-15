@@ -19,7 +19,11 @@ rem(document,window)
 
 //懒加载图片插件
 import VueLazyLoad from 'vue-lazyload'
+<<<<<<< HEAD
+Vue.use(VueLazyLoad)
+=======
 Vue.use(VueLazyLoad);
+>>>>>>> 7e9754e6391bf4bb69d181bc2b33ba77b2de8789
 Vue.use(VueLazyLoad, {
 	preload: 1.3,
 	error: 'assets/img/cart.png',
