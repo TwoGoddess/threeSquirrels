@@ -11,6 +11,10 @@
        		<div class="classify-content">
 	       		<ul class="classify-ul">
 	       			<li v-for="clist in classifyLists">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1753e027876661184980f6ce23a63ef2368c6a80
 	       				<router-link :to="'/list/'+clist.id">
 	       					<img v-lazy="clist.pic">
 	       				</router-link>   
