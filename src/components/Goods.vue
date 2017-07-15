@@ -1,6 +1,6 @@
 <template>
     <div class="goods_content">
-        <img :src="goods.pic" />
+        <img v-lazy="goods.pic" />
         <p>{{ goods.name }}</p>
         <p class="grey">每单限兑 {{ goods.limit }} 件</p>
         <p><span v-if="goods.price != '0'" class="red">{{ goods.price | money }} + </span><span class="green">{{ goods.integralAmout }}</span></p>
@@ -19,7 +19,6 @@ export default {
     }
     .grey{
         color: #999;
-        font-size: 1rem;
     }
     .goods_content{
         box-sizing:border-box;
