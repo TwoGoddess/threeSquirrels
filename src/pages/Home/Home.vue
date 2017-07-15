@@ -1,7 +1,7 @@
 <template>
     <div>
 		<home-swiper :SwiperImg="SwiperImg"></home-swiper>
-		<my-nav :list= 'navList' @getId="getId"></my-nav>
+		<my-nav :list= 'navList' :navpo = 'navpo' @getId="getId"></my-nav>
 		<differ-list  v-if="differData" :differData="differData">
 		</differ-list>
 		<floor-list :goodList = 'goodList'>
@@ -20,7 +20,8 @@
 				goodList: {},
 				SwiperImg: {},
 				navList: {},
-				differData: {}
+				differData: {},
+				navpo: false
 			}
 		},
 		methods: {
@@ -39,6 +40,19 @@
 					this.differData = res.data.data.recommendChannel;
 					console.log(res.data.data.recommendChannel)
 				})
+			},
+			nav:function()	{
+				console.log(document.body.scrollTop);
+				// 页面卷起来的高度
+				if(document.body.scrollTop >= 168){		
+					this.navpo = true;
+					//console.log(this.navpo);
+					return this.navpo;
+				}
+				if(document.body.scrollTop < 168){
+					this.navpo = false;
+					return this.navpo;
+				}
 			}
 		},
 		created () {
@@ -50,7 +64,12 @@
 			floorList,
 			differList,
 			HomeSwiper
-    	}
+    	},
+    	mounted(){
+			// 监听滚动条事件
+		    window.addEventListener('scroll', this.nav)
+		    
+		},
 	}
 </script>
 

@@ -28,7 +28,7 @@
 								<span>{{item.salesPrice.value | money}}</span>
 								<span>{{item.marketPrice.value | money}}</span>
 
-								<span><img src="http://m.3songshu.com/resources/images/icon-add-to-cart-green.eea89f73.png" alt=""></span>
+								<span @click = "addCart(item)"><img src="http://m.3songshu.com/resources/images/icon-add-to-cart-green.eea89f73.png" alt=""></span>
 							</p>
 							
 						</div>
@@ -122,6 +122,9 @@ export default {
 				},err=>{
 					console.log(err);
 				})
+		},
+		addCart:function(item){
+			this.$store.dispatch('addCart',item);
 		}
 
 		

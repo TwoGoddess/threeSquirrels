@@ -11,12 +11,8 @@
        		<div class="classify-content">
 	       		<ul class="classify-ul">
 	       			<li v-for="clist in classifyLists">
-<<<<<<< HEAD
-=======
-
->>>>>>> 1753e027876661184980f6ce23a63ef2368c6a80
 	       				<router-link :to="'/list/'+clist.id">
-	       					<img v-lazy="clist.pic">
+	       					<img v-lazy="clist.pic" class="classify-img">
 	       				</router-link>   
 
 	       			</li>
@@ -24,9 +20,9 @@
 			</div>
 
 			<!-- 跳转在线客服按钮 -->
-			<div class="classify-icon">
+			<!-- <div class="classify-icon">
 				<img src="http://m.3songshu.com/resources/images/icon-chat@2x.18defe06.png">
-			</div>
+			</div> -->
 
        		
     </div>
@@ -54,7 +50,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 	.classify-titlebox{
 		height: 3.666667rem;
 	}
@@ -99,8 +95,7 @@ export default {
 		margin-top: 0.833333rem;
 	}
 	
-	img{
-		
+	.classify-img{
 		width: 100%;
 	}
 

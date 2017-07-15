@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class = "home-nav">
+		<div class = "home-nav" :class="{ navpo:navpo}">
 	        <ul class = 'nav-ul'>
 	        	<li v-for='(item,index) in list' :key="index" :id="item.id" @click ='changeIndex(index,item.id)' :class="{'hot':index==1 ,'new':index==4,'new1':index==7}" class = "nav-li" >
 	        		<span  :class="{'active':currtIndex == index}">{{item.name}}</span>
@@ -11,7 +11,7 @@
 </template>
 <script>
 export default {
-	props:['list'],
+	props:['list','navpo'],
 	data(){
 		return {
 			currtIndex:0,
@@ -27,11 +27,18 @@ export default {
 }
 </script>
 <style>
+.navpo{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
 .nav-ul{
 	width: 100%;
 	height:3.333333rem;
 	line-height:3.333333rem;
-	overflow-x:auto;
+	/*overflow-x:hidden;*/
 	overflow-y: hidden;
 	white-space: nowrap;
 	background-color:white;

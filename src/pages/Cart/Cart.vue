@@ -1,5 +1,5 @@
 <template>
-    <div class = "cart-container">
+    <div class = "cart-container main" >
     	<header>
     		<div class='cart-head' @click = "back()"></div>
     		<div class = 'cart-middle'>购物车</div>
@@ -8,14 +8,17 @@
     			<span class="full-left">满49元免运费，还差49元</span><span class = "full-right">去凑单</span>
     		</div>
     	</header>
-    	<div style = "display:none">		
+    	<div v-if="getNum != 0">		
 			<ul class='cart-ul' >
 				<li class = 'cart-li'  v-for='(item,index) in cartList'>
-					<span class = 'check' v-model ='isChecked' @click = "checkMe(item)"></span>
+					<span class = 'check' @click = "checkMe(item)"></span>
 					<img :src="item.pic" alt="" class = 'cart-img'>			
 					<span class = 'cart-text'>
 						<p>{{item.name}}</p>
-						<p class = "cart-price">{{item.salesPrice}}</p>
+
+						<p v-if="item.salesPrice.value" class = "cart-price">{{item.salesPrice.value | money}}</p>
+						<p v-else class = "cart-price">{{item.salesPrice}}</p>
+
 						<p class = "cart-btn">
 							<span class="cart-del" @click = 'reduce(item,index)'>-</span>
 							<span class="cart-mount">{{item.count}}</span>
@@ -34,16 +37,18 @@
 				</span>
 				<span class = "cart-cal">
 					<p>去结算</p>
-					<p>(1)</p>
+					<p>({{getNum}})</p>
 				</span>
 			</div>
     	</div>
-    	<div class = "goShop">
-    		<img src="../../assets/img/cart3.png" alt="">
-    	</div>
-    	<div class = "master">
-    		<p>主人，购物车还是空的哦~</p>
-    		<router-link :to = "'/home'"><p class = "shop">去逛逛</p></router-link>
+    	<div v-else>
+	    	<div class = "goShop">
+	    		<img src="../../assets/img/cart3.png" alt="">
+	    	</div>
+	    	<div class = "master">
+	    		<p>主人，购物车还是空的哦~</p>
+	    		<router-link :to = "'/home'"><p class = "shop">去逛逛</p></router-link>
+	    	</div>
     	</div>
     </div>
 </template>
@@ -68,7 +73,19 @@ export default {
 			// 
 			//console.log(this.$store.getters.getList);
 			return this.$store.getters.getList;
+		},
+		getNum:function(){
+			var list = this.$store.getters.getList;
+			var num = 0;
+			list.forEach(i=>{
+				num += i.count;
+			});
+			// for(var i =0;i<list.length;i++){
+			// 	var num += i.count;
+			// }
+			return num;
 		}
+
 	},
 	methods:{
 		back:function(){
@@ -100,6 +117,9 @@ export default {
 .cart-container{
 	background-color:#F9F9F9;
 	height: 100%;
+}
+.main{
+	padding: 0;
 }
 header{
 	display: flex;
