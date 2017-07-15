@@ -6,6 +6,7 @@
 		</differ-list>
 		<floor-list :goodList = 'goodList'>
 		</floor-list>
+	</div>
 </template>
 
 <script>
@@ -37,7 +38,6 @@
 				.then((res)=>{
 					this.goodList = res.data.data;
 					this.differData = res.data.data.recommendChannel;
-					console.log(res.data.data.recommendChannel)
 				})
 			}
 		},
