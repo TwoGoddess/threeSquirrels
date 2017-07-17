@@ -1,7 +1,7 @@
 <template>
     <div class="goods_content">
-         <img v-if="goods.tags.length!=0" class="tags_pic" :src="goods.tags[0].pic"/> 
-         <img :src="goods.pic" />
+        <img v-if="goods.tags.length != 0" class="tags_pic" :src="goods.tags[0].pic"/>
+        <img :src="goods.pic" />
         <p>{{ goods.alias }}</p>
         <p class="grey">{{ goods.name }}</p>
         <p>
@@ -12,13 +12,20 @@
                 {{ goods.marketPrice }}
             </s>
         </p>
-        <img class="goods_cart" src="../../static/img/greenCart.png" /> 
+        <img class="goods_cart" src="../../static/img/greenCart.png" @click = 'addCart(goods)' />
     </div>
 </template>
 
 <script>
 export default{
-    props:['goods']
+    props:['goods'],
+    methods:{
+        addCart:function(goods){
+            //console.log(goods);
+            this.$store.dispatch('addCart',goods);
+
+        }
+    }
 }
 </script>
 

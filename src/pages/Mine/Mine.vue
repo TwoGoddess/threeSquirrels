@@ -73,9 +73,14 @@
 </template>
 
 <script>
-	export default{
-		
-	}
+
+
+export default {
+    name: 'mine',
+    components: {
+
+    }
+}
 </script>
 
 <style>

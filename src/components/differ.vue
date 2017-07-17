@@ -36,7 +36,7 @@
 			            	<span id="marketPrice-color">{{slide.marketPrice}}</span>
 			            </p>
 		            </div>
-			        <span class="btn" @click="addGoods(item)"></span>
+			        <span class="btn" @click="addCart(slide)"></span>
 	            </swiper-slide>
 	        </swiper>
 		</div>
@@ -92,6 +92,13 @@
             	}
 			}
 		},
+		methods:{
+        	addCart:function(slide){
+	            //console.log(goods);
+	            this.$store.dispatch('addCart',slide);
+
+       		 }
+    	},
 		components:{
 	        swiper,
 			swiperSlide,
