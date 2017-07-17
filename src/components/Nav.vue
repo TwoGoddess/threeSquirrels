@@ -27,6 +27,9 @@ export default {
 }
 </script>
 <style>
+.home-nav{
+	overflow: hidden;
+}
 .nav-ul{
 	width: 100%;
 	height:3.333333rem;

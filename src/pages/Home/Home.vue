@@ -2,10 +2,11 @@
     <div>
 		<home-swiper :SwiperImg="SwiperImg"></home-swiper>
 		<my-nav :list= 'navList' @getId="getId"></my-nav>
-		<differ-list  v-if="differData" :differData="differData">
-		</differ-list>
-		<floor-list :goodList = 'goodList'>
-		</floor-list>
+		 <differ-list  v-if="differData" :differData="differData">
+		</differ-list> 
+		 <floor-list :goodList = 'goodList'>
+		</floor-list> 
+	</div>
 </template>
 
 <script>
@@ -32,12 +33,10 @@
 				})
 			},
 			getId:function(id){
-				console.log(id);
 				axios.get('../../static/data/home/'+id+'.json')
 				.then((res)=>{
 					this.goodList = res.data.data;
 					this.differData = res.data.data.recommendChannel;
-					console.log(res.data.data.recommendChannel)
 				})
 			}
 		},
