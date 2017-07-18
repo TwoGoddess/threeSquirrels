@@ -2,18 +2,18 @@
     <div>
         <router-view class="main"></router-view>
         <div class="footer">
-            <router-link to="/home"><img src="../assets/img/home.png" alt="">首页</router-link>
-            <router-link to="/classify"><img src="../assets/img/class1.png" alt="">分类</router-link>
-            <router-link to="/squirrelb"><img src="../assets/img/squerr1.png" alt="">松鼠币商城</router-link>
+            <router-link to="/home">首页</router-link>
+            <router-link to="/classify">分类</router-link>
+            <router-link to="/squirrelb">松鼠币商城</router-link>
             <router-link to="/cart">
-                <img src="../assets/img/cart1.png" alt="">购物车
+               购物车
                 <span class="yellow" v-if="getNum != 0">{{getNum}}</span>
             </router-link>
-            <router-link to="/mine"><img src="../assets/img/mine1.png" alt="">个人中心</router-link>
+            <router-link to="/mine">个人中心</router-link>
         </div>
     </div>
 </template>
-
+ 
 <script>
 export default {
     computed :{
@@ -31,10 +31,7 @@ export default {
 </script>
 
 <style lang="less">
-    .main{
-        padding-bottom: 50px;
-    }
-    .footer{
+ .footer{
         display: flex;
         position: fixed;
         padding-top: 2px;
@@ -52,14 +49,6 @@ export default {
             color: #585858;
             position: relative;
         }
-        img{
-            width: 2rem;
-            height: 2rem;
-            position: absolute;
-            top: .5rem;
-            left: 50%;
-            transform: translateX(-50%);
-        }
         .yellow{
             display:inline-block;
             width:1.6rem;
@@ -73,6 +62,75 @@ export default {
             background-color:#ff9601;
             color:#fff;
         }
-    }
+        a:nth-of-type(1){
+            background: url(../assets/img/home1.png) no-repeat;
+            display:block;
+            background-size: 32% 43%;
+            background-position:1.8rem .5rem;
+            
+        }
+        a:nth-of-type(1).router-link-active{
+            background: url(../assets/img/home.png) no-repeat;
+            display:block;
+            background-size: 32% 43%;
+            background-position:1.8rem .5rem;
+            color:#77bc1f;
+        }
+        a:nth-of-type(2){
+            background: url(../assets/img/class1.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+        }
+        a:nth-of-type(2).router-link-active{
+            background: url(../assets/img/class.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+            color:#77bc1f;
+        }
+        a:nth-of-type(3){
+            background: url(../assets/img/squerr1.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+        }
+        a:nth-of-type(3).router-link-active{
+            background: url(../assets/img/squerr.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+            color:#77bc1f;
+        }
+        a:nth-of-type(4){
+            background: url(../assets/img/cart1.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+        }
+        a:nth-of-type(4).router-link-active{
+            background: url(../assets/img/cart.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+            color:#77bc1f;
+        }
+        a:nth-of-type(5){
+            background: url(../assets/img/mine1.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+        }
+        a:nth-of-type(5).router-link-active{
+            background: url(../assets/img/mine.png) no-repeat;
+            display:block;
+            background-size:  32% 43%;
+            background-position:1.8rem .5rem;
+            color:#77bc1f;
+        }
     
+    }
+    .main{
+        padding-bottom: 50px;
+    }
 </style>

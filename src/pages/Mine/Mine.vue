@@ -25,16 +25,28 @@
 		<div class="my-dingdan">
 			<div class="my-dingdan-text">
 				<i class="dingdanLeft-img"></i>
-				<span class="my-dingdan-textLeft">我的订单</span>
-				<span class="my-dingdan-textRight">查看全部订单</span>
+				<router-link to="/mineList">
+					<span class="my-dingdan-textLeft">我的订单</span>
+					<span class="my-dingdan-textRight">查看全部订单</span>
+				</router-link>
 				<i class="dingdanRight-img">&gt;</i>
 			</div>
 			<div class="daifukuan">
-				<div class="daifukuan-lists"><i class="i1"></i>待付款</div>
-				<div class="daifukuan-lists"><i class="i2"></i>待发货</div>
-				<div class="daifukuan-lists"><i class="i3"></i>待收货</div>
-				<div class="daifukuan-lists"><i class="i4"></i>待评价</div>
-				<div class="daifukuan-lists"><i class="i5"></i>退款/售后</div>
+				<div class="daifukuan-lists">
+					<router-link to="/fukuan" class="color"><i class="i1"></i>待付款</router-link>
+				</div>
+				<div class="daifukuan-lists">
+					<router-link to="/fahuo" class="color"><i class="i2"></i>待发货</router-link>
+				</div>
+				<div class="daifukuan-lists">
+					<router-link to="/shouhuo" class="color"><i class="i3"></i>待收货</router-link>
+				</div>
+				<div class="daifukuan-lists">
+					<router-link to="/pingjia" class="color"><i class="i4"></i>待评价</router-link>
+				</div>
+				<div class="daifukuan-lists">
+					<router-link to="/shouhou" class="color"><i class="i5"></i>退款/售后</router-link>
+				</div>
 			</div>
 		</div>
 		<div class="youhuiquan">
@@ -73,17 +85,12 @@
 </template>
 
 <script>
-
-
-export default {
-    name: 'mine',
-    components: {
-
-    }
-}
+	export default{
+		
+	}
 </script>
 
-<style>
+<style scoped>
 	.mine{
 		font-size: 1.166667rem;
 		overflow: scroll; 
@@ -268,6 +275,9 @@ export default {
 	    white-space: nowrap;
 	    font-weight: 400;
 	}
+	.color{
+		color: #999;
+	}
 	.i1{
 		display: block;
 		width: 5.0rem;
@@ -400,6 +410,6 @@ export default {
 	    height: 100%;
 	}
 	.floorText{
-		margin-bottom: 0.5rem;
+		margin-bottom: 4.383333rem;
 	}
 </style>

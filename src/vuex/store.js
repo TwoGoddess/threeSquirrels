@@ -2,6 +2,7 @@ import Vue from "vue"
 import Vuex from "vuex"
 
 Vue.use(Vuex)
+Vue.prototype.allCheckFlag = true;
 
 const state = {
 	totalPrice:0,
@@ -18,7 +19,6 @@ const mutations = {
 			item['count'] =1;
 			state.cartList.push(item);
 		}
-
 		//和计算属性配合使用
 		var a = state.cartList;
 		state.cartList=[].concat(state.cartList);
@@ -36,6 +36,20 @@ const mutations = {
 		var a=state.cartList;
 		state.cartList=[].concat(state.cartList);
 		a=null;
+	},
+
+	addPrice:function(state,item){
+		state.totalPrice += item.salesPrice;
+	},
+
+	change:function(state){
+		var a = 0;
+		state.cartList.map(function(newItem){
+			if(newItem.singleFlag == true){
+				a += newItem.count * newItem.salesPrice;
+			}
+		});
+		state.totalPrice = a;
 	}
 }
 
@@ -45,12 +59,16 @@ const actions = {
 	},
 	minus:function({commit},item){
 		commit('minus',item);
-	}
+	},
+	
 }
 
 const getters = {
 	getList:function(){
 		return state.cartList;
+	},
+	getMoney(state){
+		return state.totalPrice;
 	}
 }
 

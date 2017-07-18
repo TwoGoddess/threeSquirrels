@@ -11,7 +11,7 @@
     	<div v-if="getNum != 0">		
 			<ul class='cart-ul' >
 				<li class = 'cart-li'  v-for='(item,index) in cartList'>
-					<span class = 'check' @click = "checkMe(item)"></span>
+					<span :class="item.singleFlag ? 'check':'checkNo'" @click = "singleChoice(item)"></span>
 					<img :src="item.pic" alt="" class = 'cart-img'>			
 					<span class = 'cart-text'>
 						<p>{{item.name}}</p>
@@ -29,11 +29,11 @@
 				</li>
 			</ul>
 			<div class = "cart-bottom">
-				<span class = 'check1'></span>
+				<span :class = "allCheckFlag ? 'check':'checkNo'" @click="all()"></span>
 				<span class ='allcheck'>全选</span>
 				<span class = 'bottom-text'>
-					<p>应付：<span class = 'bottom-price'>{{total}}</span></p>
-					<p>总价:{{total}} 优惠：0.00</p>
+					<p>应付：<span class = 'bottom-price'>{{allPrice | money}}</span></p>
+					<p>总价:{{allPrice | money}} 优惠：0.00</p>
 				</span>
 				<span class = "cart-cal">
 					<p>去结算</p>
@@ -56,22 +56,20 @@
 export default {
 	data(){
 		return{
-			total:0,
-			//cartList:this.$store.state.cartList
+			//allPrice:0,
+			//cartList:this.$store.state.cartList,
+			isChecked :true
 		}
 	},
 	created(){
 		if(this.$store.getters.getList.length==0){
             this.allChecked = false;
         }
-		this.getTotal();
+		//this.getTotal();
 	},
 	computed :{
 		cartList:function(){
-			console.log("okokoko");
-			// console.log(this.cartList);
-			// 
-			//console.log(this.$store.getters.getList);
+			//console.log("okokoko");
 			return this.$store.getters.getList;
 		},
 		getNum:function(){
@@ -84,6 +82,9 @@ export default {
 			// 	var num += i.count;
 			// }
 			return num;
+		},
+		allPrice:function(){
+			return this.$store.getters.getMoney;
 		}
 
 	},
@@ -91,23 +92,56 @@ export default {
 		back:function(){
 			history.back();
 		},
+		reduce:function(item,index){
+			this.$store.dispatch('minus',item);
+			//getTotal();
+			//this.cartList=this.$store.state.cartList;
+			this.$store.commit("change");
+		},
+		add:function(item){
+			this.$store.dispatch('addCart',item);
+			//getTotal();
+			//this.cartList=this.$store.state.cartList;
+			this.$store.commit("change");
+		},
+		singleChoice:function(item){
+			item.singleFlag = !item.singleFlag;			
+			let num = 0;
+			this.cartList.map(function(i) {
+				if(i.singleFlag == false) {
+					num++;
+				}
+			});
+			if(num == 0) {
+				this.allCheckFlag = true;
+			} else {
+				this.allCheckFlag = false;
+			}
+			this.$store.commit("change");
+		},
+		all() {
+				this.allCheckFlag = !this.allCheckFlag;
+				if(this.allCheckFlag == false) {
+					this.cartList.map(function(i) {
+						i.singleFlag = false;
+					})
+				}
+				if(this.allCheckFlag == true) {
+					this.cartList.map(function(i) {
+						i.singleFlag = true;
+					})
+				}
+				this.$store.commit("change");
+			},
 		getTotal:function(){
 			this.total = 0;
             this.$store.state.cartList.forEach(c=>{
                 if(c.isChecked){
-                    this.total += c.price * c.count;
+                    this.total += c.salesPrice * c.count;
                 }
             });
             this.total = this.total.toFixed(2);
 		},
-		reduce:function(item,index){
-			this.$store.dispatch('minus',item)
-			//this.cartList=this.$store.state.cartList;
-		},
-		add:function(item){
-			this.$store.dispatch('addCart',item);
-			//this.cartList=this.$store.state.cartList;
-		}
 	},
 
 }
@@ -184,10 +218,21 @@ header{
 	height:1.48rem;
 	background:url('../../assets/img/green.png')no-repeat;
     background-size: auto auto;
-    margin-top: -0.416667rem;
     vertical-align:top;
-    margin-top:2.5rem; 
     margin-left: .5rem;
+    position: relative;
+    top: 35%;
+}
+.checkNo{
+	float: left;
+	width:1.48rem; 
+	height:1.48rem;
+	background:url('../../assets/img/blank.png')no-repeat;
+    background-size: auto auto;
+    vertical-align:top;
+    margin-left: .5rem;
+    position: relative;
+    top: 35%;
 }
 .check2{
 	float: left;
@@ -254,7 +299,7 @@ header{
 	position:fixed;
 	left: 0;
 	right:0;
-	bottom:4.166667rem;
+	bottom:3.166667rem;
 	border-bottom: 1px solid #E4E4E4;
 	border-top:1px solid #DCDCDC;
 }
@@ -323,13 +368,13 @@ header{
 	margin-top: 1rem;
 	color:#999999;
 }
-.shop{
+.master a:nth-child(2) p{
 	margin-left:10rem;
 	margin-right: 10.5rem;
 	margin-top: 2rem;
 	color:#95CA51;
 	border:1px solid #95CA51;
-	padding: .6rem 0  .6rem 2rem;
+	padding: .6rem 0  .6rem 1.5rem;
 	border-radius: .3rem;
 }
 </style>
