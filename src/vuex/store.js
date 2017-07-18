@@ -17,6 +17,7 @@ const mutations = {
 			_item.count ++;
 		}else{
 			item['count'] =1;
+			//item.singleFlag=true;
 			state.cartList.push(item);
 		}
 		//和计算属性配合使用

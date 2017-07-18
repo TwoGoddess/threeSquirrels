@@ -8,7 +8,7 @@
     	<div v-if="getNum != 0">		
 			<ul class='cart-ul' >
 				<li class = 'cart-li'  v-for='(item,index) in cartList'>
-					<span :class="item.singleFlag ? 'check':'checkNo'" @click = "singleChoice(item)"></span>
+					<span :class="item.singleFlag ? 'check':'checkNo' " @click = "singleChoice(item)"></span>
 					<img :src="item.pic" alt="" class = 'cart-img'>			
 					<span class = 'cart-text'>
 						<p>{{item.name}}</p>
@@ -26,11 +26,8 @@
 				</li>
 			</ul>
 			<div class = "cart-bottom">
-<<<<<<< HEAD
 				<span :class = "allCheckFlag ? 'check':'checkNo'" @click="all()"></span>
 				<span class ='allcheck'>全选</span>
-=======
->>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 				<span class = 'bottom-text'>
 					<p>应付：<span class = 'bottom-price'>{{allPrice | money}}</span></p>
 					<p>总价:{{allPrice | money}} 优惠：0.00</p>
@@ -60,17 +57,12 @@ export default {
 	components: {
         toolBar,
     },
-	data(){
-		return{
-			isChecked :true
-		}
-	},
-	created(){
-		if(this.$store.getters.getList.length==0){
-            this.allChecked = false;
-        }
-		//this.getTotal();
-	},
+	// created(){
+	// 	if(this.$store.getters.getList.length==0){
+ //            this.allChecked = false;
+ //        }
+	// 	//this.getTotal();
+	// },
 	computed :{
 		cartList:function(){
 			return this.$store.getters.getList;
@@ -133,7 +125,7 @@ export default {
 				}
 				this.$store.commit("change");
 			},
-		getTotal:function(){
+		/*getTotal:function(){
 			this.total = 0;
             this.$store.state.cartList.forEach(c=>{
                 if(c.isChecked){
@@ -141,8 +133,18 @@ export default {
                 }
             });
             this.total = this.total.toFixed(2);
-		},
-	}
+		},*/
+	},
+	/*mounted(){
+		var arr=this.cartList;
+	 arr.forEach(function(item){
+			item.singleFlag=true;
+		})
+	 console.log(arr)
+	 this.cartList=arr;
+	 console.log(this.cartList==arr)
+	}*/
+
 
 }
 </script>
@@ -206,17 +208,6 @@ export default {
     margin-left: .5rem;
     position: relative;
     top: 35%;
-}
-.check2{
-	float: left;
-	width:1.48rem; 
-	height:1.48rem;
-	background:url('../../assets/img/blank.png')no-repeat;
-    background-size: auto auto;
-    margin-top: -0.416667rem;
-    vertical-align:top;
-    margin-top:2.5rem; 
-    margin-left: .5rem;
 }
 .cart-img{
 	position: absolute;
