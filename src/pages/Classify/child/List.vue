@@ -1,6 +1,6 @@
 <template>
     <div>
-
+		<toolBar></toolBar>
     	<!-- 新品热卖列表 -->
 		<div class="list-box">
 
@@ -20,7 +20,7 @@
 
 			<div class="list-data" id="list-data">
 				<ul>
-					<li v-for="(item,index) in lists">
+					<li v-for="(item,index) in lists" :key="index">
 						<img v-lazy="item.pic">
 						<div class="list-proinfo">
 							<p class="list-proname">{{item.name}}</p>
@@ -46,9 +46,13 @@
 </template>
 
 <script>
+import toolBar from '../../../components/ToolBar'
+
 export default {
 	name: 'List',
-
+	components: {
+		toolBar
+	},
 	data(){
 		return {
 			id:this.$route.params.id,
@@ -158,15 +162,10 @@ export default {
 		background-color: rgb(249,249,249);
 	}
 	.list-box-top{
+		border-top: .1rem solid #f9f9f9;
+		border-bottom: .3rem solid #f9f9f9;		
+		margin-top: 3rem;
 		height: 2.5rem;
-	}
-	.blank{
-		height: 0.5rem;
-		position: fixed;
-		top: 2.5rem;
-		left: 0;
-		right: 0;
-		background-color: rgb(249,249,249);
 	}
 	.list-box-top>ul{
 		height: 2.5rem;
@@ -174,14 +173,8 @@ export default {
 		flex-direction: row; 
 		align-items: center; 
 		justify-content: space-around;
-
 		font-size: 1.083333rem;
 		background-color: #fff;
-
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
 	}
 	.list-box-top>ul>li>img{
 		width: 17%;

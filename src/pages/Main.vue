@@ -49,6 +49,17 @@ export default {
             color: #585858;
             position: relative;
         }
+<<<<<<< HEAD
+=======
+        img{
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            top: .5rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+>>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
         .yellow{
             display:inline-block;
             width:1.6rem;

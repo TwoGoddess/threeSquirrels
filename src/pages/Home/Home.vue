@@ -33,16 +33,17 @@
 				})
 			},
 			getId:function(id){
+<<<<<<< HEAD
 				//console.log(id);
+=======
+>>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 				axios.get('../../static/data/home/'+id+'.json')
 				.then((res)=>{
 					this.goodList = res.data.data;
 					this.differData = res.data.data.recommendChannel;
-					console.log(res.data.data.recommendChannel)
 				})
 			},
 			nav:function()	{
-				console.log(document.body.scrollTop);
 				// 页面卷起来的高度
 				if(document.body.scrollTop >= 168){		
 					this.navpo = true;

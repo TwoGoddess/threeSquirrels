@@ -1,13 +1,10 @@
 <template>
     <div class = "cart-container main" >
-    	<header>
-    		<div class='cart-head' @click = "back()"></div>
-    		<div class = 'cart-middle'>购物车</div>
-    		<div class = 'cart-right'>编辑</div>
-    		<div class = "full">
-    			<span class="full-left">满49元免运费，还差49元</span><span class = "full-right">去凑单</span>
-    		</div>
-    	</header>
+		<toolBar></toolBar>
+		<div class = "full">
+			<span class="full-left">满49元免运费，还差49元</span><span class = "full-right">去凑单</span>
+		</div>
+
     	<div v-if="getNum != 0">		
 			<ul class='cart-ul' >
 				<li class = 'cart-li'  v-for='(item,index) in cartList'>
@@ -29,8 +26,11 @@
 				</li>
 			</ul>
 			<div class = "cart-bottom">
+<<<<<<< HEAD
 				<span :class = "allCheckFlag ? 'check':'checkNo'" @click="all()"></span>
 				<span class ='allcheck'>全选</span>
+=======
+>>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 				<span class = 'bottom-text'>
 					<p>应付：<span class = 'bottom-price'>{{allPrice | money}}</span></p>
 					<p>总价:{{allPrice | money}} 优惠：0.00</p>
@@ -53,12 +53,22 @@
     </div>
 </template>
 <script>
+
+import toolBar from '../../components/ToolBar'
+
 export default {
+	components: {
+        toolBar,
+    },
 	data(){
 		return{
+<<<<<<< HEAD
 			//allPrice:0,
 			//cartList:this.$store.state.cartList,
 			isChecked :true
+=======
+			total:0,
+>>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 		}
 	},
 	created(){
@@ -69,7 +79,10 @@ export default {
 	},
 	computed :{
 		cartList:function(){
+<<<<<<< HEAD
 			//console.log("okokoko");
+=======
+>>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 			return this.$store.getters.getList;
 		},
 		getNum:function(){
@@ -78,9 +91,6 @@ export default {
 			list.forEach(i=>{
 				num += i.count;
 			});
-			// for(var i =0;i<list.length;i++){
-			// 	var num += i.count;
-			// }
 			return num;
 		},
 		allPrice:function(){
@@ -89,6 +99,7 @@ export default {
 
 	},
 	methods:{
+<<<<<<< HEAD
 		back:function(){
 			history.back();
 		},
@@ -133,6 +144,8 @@ export default {
 				}
 				this.$store.commit("change");
 			},
+=======
+>>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 		getTotal:function(){
 			this.total = 0;
             this.$store.state.cartList.forEach(c=>{
@@ -142,6 +155,15 @@ export default {
             });
             this.total = this.total.toFixed(2);
 		},
+<<<<<<< HEAD
+=======
+		reduce:function(item,index){
+			this.$store.dispatch('minus',item)
+		},
+		add:function(item){
+			this.$store.dispatch('addCart',item);
+		}
+>>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 	},
 
 }
@@ -155,44 +177,17 @@ export default {
 .main{
 	padding: 0;
 }
-header{
-	display: flex;
-	height:5.916667rem;
-	background-color: #fff;
-	position: fixed;
-	left: 0;
-	right: 0;
-	top:0;
-	z-index: 999;
-}
-.cart-head{
-	height: 3.666667rem;
-	width:2.5rem;
-	background:url('../../assets/img/left.png') no-repeat 1.25rem 1.25rem;
-}
-.cart-middle{
-	font-size: 1.416667rem;
-    font-weight: 500;
-    position: absolute;
-    left: 11.5rem;
-    top: .9rem;
-}
-.cart-right{
-	position: absolute;
-	right:.8rem;
-	top:1.2rem;
-}
 .full{
 	position: absolute;
 	left: 0;
 	right: 0;
 	top:0;
-	z-index: 999;
+	z-index: 10;
 	height: 2.166667rem;
 	line-height: 2.166667rem;
 	background-color: #F9C0CB;
 	padding: 0 0 0 0.833333rem;
-	margin-top: 3.666667rem;
+	margin-top: 3rem;
 }
 .full-left{
 	color:white;

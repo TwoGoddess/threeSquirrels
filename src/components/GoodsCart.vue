@@ -1,6 +1,6 @@
 <template>
     <div class="goods_content">
-        <img v-if = 'goods.tags.length != 0'class="tags_pic" :src="goods.tags[0].pic"/>
+        <img v-if="goods.tags.length != 0" class="tags_pic" :src="goods.tags[0].pic"/>
         <img :src="goods.pic" />
         <p>{{ goods.alias }}</p>
         <p class="grey">{{ goods.name }}</p>

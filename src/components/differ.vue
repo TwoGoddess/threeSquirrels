@@ -27,7 +27,7 @@
 				<div class="time">01:22:22</div>
 			</div>
 			<swiper :options="swiperSmall">
-	            <swiper-slide id="swiperSmall-slide" v-for="slide in differData.flashSale.products" :key="slide.id">
+	            <swiper-slide id="swiperSmall-slide" v-for="(slide, index) in differData.flashSale.products" :key="index">
 	                <img v-lazy="slide.pic" id="swiperSmall">
 		            <div class="textInfo">
 			            <p>{{slide.name}}</p>
@@ -70,7 +70,7 @@
 	import SwiperCover from './SwiperCover'
 
 	export default{
-		props:['type','jiriBaokuan','swiperToSmall','promotions','differData','differData'],
+		props:['differData'],
 		data(){
 			return{
 				swiperOption: {
