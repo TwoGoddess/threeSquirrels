@@ -62,13 +62,7 @@ export default {
     },
 	data(){
 		return{
-<<<<<<< HEAD
-			//allPrice:0,
-			//cartList:this.$store.state.cartList,
 			isChecked :true
-=======
-			total:0,
->>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 		}
 	},
 	created(){
@@ -79,10 +73,6 @@ export default {
 	},
 	computed :{
 		cartList:function(){
-<<<<<<< HEAD
-			//console.log("okokoko");
-=======
->>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 			return this.$store.getters.getList;
 		},
 		getNum:function(){
@@ -99,7 +89,6 @@ export default {
 
 	},
 	methods:{
-<<<<<<< HEAD
 		back:function(){
 			history.back();
 		},
@@ -144,8 +133,6 @@ export default {
 				}
 				this.$store.commit("change");
 			},
-=======
->>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 		getTotal:function(){
 			this.total = 0;
             this.$store.state.cartList.forEach(c=>{
@@ -155,16 +142,7 @@ export default {
             });
             this.total = this.total.toFixed(2);
 		},
-<<<<<<< HEAD
-=======
-		reduce:function(item,index){
-			this.$store.dispatch('minus',item)
-		},
-		add:function(item){
-			this.$store.dispatch('addCart',item);
-		}
->>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
-	},
+	}
 
 }
 </script>

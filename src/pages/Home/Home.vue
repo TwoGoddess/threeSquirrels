@@ -33,10 +33,6 @@
 				})
 			},
 			getId:function(id){
-<<<<<<< HEAD
-				//console.log(id);
-=======
->>>>>>> ba264a9f8b409bf43c4e96abcef2d98cb12e9a70
 				axios.get('../../static/data/home/'+id+'.json')
 				.then((res)=>{
 					this.goodList = res.data.data;

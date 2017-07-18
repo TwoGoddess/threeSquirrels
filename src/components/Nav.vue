@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class = "home-nav" :class="{ navpo:navpo}">
+		<div class = "home-nav" :class="{ navpo:navpo }">
 	        <ul class = 'nav-ul'>
 	        	<li v-for='(item,index) in list' :key="index" :id="item.id" @click ='changeIndex(index,item.id)' :class="{'hot':index==1 ,'new':index==4,'new1':index==7}" class = "nav-li" >
 	        		<span  :class="{'active':currtIndex == index}">{{item.name}}</span>
