@@ -3,7 +3,7 @@
         <header>
     		<div v-if="isShowBack" class='cart-head' @click = "back()"></div>
     		<div class = 'cart-middle'>{{ title }}</div>
-    		<div v-if="isShowEdit" class = 'cart-right'>编辑</div>	
+    		<div v-if="isShowEdit" class = 'cart-right'>{{ edit }}</div>	
     	</header> 
     </div>
 </template>
@@ -12,24 +12,44 @@
 export default {
     data(){
         return{
-            title: "松鼠币商城"
+            title: "",
+            edit: "",
+            isShowBack,
+            isShowEdit
         }
     },
     methods:{
         back(){
             window.history.back();
+        },
+        changeTitle(){
+            if(this.$route.path == "/classify"){
+                 this.title = "分类"
+                 this.isShowBack = false;
+                 this.isShowEdit = false;
+            }else if(this.$route.path == "/squirrelb"){
+                 this.title = "松鼠币商城"
+                 this.isShowBack = false;
+                 this.isShowEdit = false;
+            }else if(this.$route.path == "/cart"){
+                 this.title = "购物车"
+                 this.isShowBack = true;
+                 this.isShowEdit = true;
+                 this.edit = "编辑"
+            }else{
+                this.title = ""
+                this.isShowBack = true;
+                this.isShowEdit = true;
+                this.edit = "搜索"
+            }
+            console.log(this.$route.path)
         }
     },
-    computed: {
-        title(){
-            return this.$store.state.toolber.title;
-        },
-        isShowArrow(){
-            return this.$store.state.toolbar.isShowArrow;
-        },
-        isShowEdit(){
-            return this.$store.state.toolbar.isShowEdit;
-        }
+    watch: {
+        "$route": "changeTitle"
+    },
+    created(){
+        this.changeTitle();
     }
 }
 </script>

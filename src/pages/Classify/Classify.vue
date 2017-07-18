@@ -8,21 +8,13 @@
        		<!-- 分类模块 -->
        		<div class="classify-content">
 	       		<ul class="classify-ul">
-	       			<li v-for="clist in classifyLists">
+	       			<li v-for="(clist, index) in classifyLists" :key="index">
 	       				<router-link :to="'/list/'+clist.id">
 	       					<img v-lazy="clist.pic" class="classify-img">
 	       				</router-link>   
-
 	       			</li>
 	       		</ul>
 			</div>
-
-			<!-- 跳转在线客服按钮 -->
-			<!-- <div class="classify-icon">
-				<img src="http://m.3songshu.com/resources/images/icon-chat@2x.18defe06.png">
-			</div> -->
-
-       		
     </div>
 </template>
 
