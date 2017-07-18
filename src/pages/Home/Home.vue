@@ -3,7 +3,7 @@
 		<home-swiper :SwiperImg="SwiperImg"></home-swiper>
 		<my-nav :list= 'navList' :navpo = 'navpo' @getId="getId"></my-nav>
 		<differ-list  v-if="differData" :differData="differData">
-		</differ-list>
+		</differ-list> 
 		<floor-list :goodList = 'goodList'>
 		</floor-list>
 	</div>
@@ -33,7 +33,7 @@
 				})
 			},
 			getId:function(id){
-				console.log(id);
+				//console.log(id);
 				axios.get('../../static/data/home/'+id+'.json')
 				.then((res)=>{
 					this.goodList = res.data.data;
